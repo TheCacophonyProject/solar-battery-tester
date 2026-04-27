@@ -1,0 +1,20 @@
+project_name: solar-battery-tester
+output: production-files
+
+# {{.Version}} will be replaced with the git tag. 
+
+# List of PCBs that will be processed. This will:
+# - Validate the Schematic ERC
+# - Validate the PCB DRC
+# - Make release files (gerber, BOM, placement file)
+pcbs:
+- id: solar-battery-load
+  text_variables:
+    - key: TAG
+      val: {{.Version}}
+
+pcbs:
+- id: solar-battery-tester
+  text_variables:
+    - key: TAG
+      val: {{.Version}}

@@ -1,0 +1,1998 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d887a5a6-8a35-400b-aa45-c2ccb89b75f7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:LM317_TO-252"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM317_TO-252"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/snvs774n/snvs774n.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-252"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Adjustable Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?252*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM317_TO-252_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM317_TO-252_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "Target current for each row: 250mA\nI = 1.25/R\nI = 1.25/5\nI = 250mA\nMin voltage drop over regulator for stable regulation: 2V\n\nTotal voltage drop over resistors at 9V (empty battery) 7V\nMax Total resistor resistance = 7/0.25 = 28Ω\n28 = 5 x 5Ω + 1 x 3Ω\n\nEach 5Ω resistor will dissipate 0.25A^2*5Ω = 0.3125W. This can be done with two 10Ω in parallel giving 5Ω and 0.5W\nThe 3Ω resistor will dissipate 0.1875W so that can be done with one 1206 resistor\n\nMax power output from linear regulator will be when regulating at the batteries highest voltage (12.6V)\n(12.6-(28*0.25))*0.25 = 1.4W\n"
+		(exclude_from_sim no)
+		(at 29.21 57.15 0)
+		(size 73.66 39.37)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8eafca78-ca3f-438b-a259-97786f9d1760")
+	)
+	(junction
+		(at 113.03 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21c621ca-8442-4f70-9438-c31e4e6782ef")
+	)
+	(junction
+		(at 113.03 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ef71c1c-ed72-4f31-afd5-cb59a3d0f24f")
+	)
+	(junction
+		(at 113.03 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "766c7c4f-53cb-4766-9300-f6b4b19ca0d7")
+	)
+	(junction
+		(at 113.03 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97b8f351-530b-47d8-8f6e-5e814cfaeed5")
+	)
+	(junction
+		(at 113.03 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a62819f-dbb3-4b18-9758-a821dab563b4")
+	)
+	(junction
+		(at 113.03 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aeebc79-8581-4bf0-aa43-98c777b10b24")
+	)
+	(junction
+		(at 113.03 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ce8c74-3b39-4887-bfff-859784b71f29")
+	)
+	(junction
+		(at 113.03 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3fd8a43-e0ed-4295-a885-b82833bcd329")
+	)
+	(junction
+		(at 113.03 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daa4465a-80e8-4025-83c3-d64b719bc863")
+	)
+	(junction
+		(at 113.03 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e374e2c7-7ee2-4874-83db-7728de5c360f")
+	)
+	(junction
+		(at 113.03 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e678a5b5-2dfa-44ca-8224-2c6a8eff1558")
+	)
+	(wire
+		(pts
+			(xy 113.03 88.9) (xy 124.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a54bae-4e82-471e-80bd-5f0726e1923c")
+	)
+	(wire
+		(pts
+			(xy 104.14 148.59) (xy 113.03 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ecc4a2-58e7-4033-956a-94ed896068ca")
+	)
+	(wire
+		(pts
+			(xy 113.03 146.05) (xy 113.03 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af7646c-191b-461e-81bd-82e5237f8bf0")
+	)
+	(wire
+		(pts
+			(xy 113.03 109.22) (xy 124.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174363a6-2c08-4dc9-8b49-1f5e53eb9904")
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 124.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1743eb02-8e96-44a0-8f4c-33f80e922425")
+	)
+	(wire
+		(pts
+			(xy 113.03 137.16) (xy 113.03 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4350ecb6-5a63-443d-b893-2401b37f8a91")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 113.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450cd0c3-3db9-453c-8e16-07b09b9ff531")
+	)
+	(wire
+		(pts
+			(xy 113.03 67.31) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a510668-1174-4a51-99d8-629c76096b81")
+	)
+	(wire
+		(pts
+			(xy 113.03 146.05) (xy 124.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a77353e-8190-4687-9be2-3281c345735e")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f4778f-1305-458d-ab8c-f87b70f614fc")
+	)
+	(wire
+		(pts
+			(xy 113.03 78.74) (xy 113.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62effd0c-2825-4b8a-949a-13a084bcb969")
+	)
+	(wire
+		(pts
+			(xy 113.03 119.38) (xy 113.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650cb443-c513-45fb-9875-895dd033fec8")
+	)
+	(wire
+		(pts
+			(xy 113.03 88.9) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd8ce84-30b7-4841-b9db-e5346419de82")
+	)
+	(wire
+		(pts
+			(xy 113.03 138.43) (xy 124.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d1d07c-47bf-4759-9b59-607782bcc664")
+	)
+	(wire
+		(pts
+			(xy 113.03 119.38) (xy 124.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801e79bb-3584-4576-b23a-519c30e86cc0")
+	)
+	(wire
+		(pts
+			(xy 111.76 152.4) (xy 113.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db09304-91b6-4b5e-96c8-87bda5f757ab")
+	)
+	(wire
+		(pts
+			(xy 113.03 101.6) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98cdd6db-0bd9-4051-b1ae-74eecdb70439")
+	)
+	(wire
+		(pts
+			(xy 113.03 148.59) (xy 113.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dba3ed9-f4a2-4f39-bdd3-aad3980d04f8")
+	)
+	(wire
+		(pts
+			(xy 113.03 99.06) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dc2ce9-2097-4721-bb37-32ed3cbc094f")
+	)
+	(wire
+		(pts
+			(xy 113.03 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a730b806-17f5-4085-9bf0-cdb434289cee")
+	)
+	(wire
+		(pts
+			(xy 113.03 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5133ff-a0b1-45d7-a77f-7be0920e1701")
+	)
+	(wire
+		(pts
+			(xy 104.14 129.54) (xy 105.41 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad52ed8a-f1c9-4363-b27d-7a706ca11ec1")
+	)
+	(wire
+		(pts
+			(xy 104.14 129.54) (xy 104.14 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6ed9cc-a7a1-408b-9d10-ae7f7197a3ab")
+	)
+	(wire
+		(pts
+			(xy 113.03 109.22) (xy 113.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f929ce76-63e2-4077-8aa1-2d6a84a474c1")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 111.76 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b00fd23-8193-413b-9d9e-f162b6f50364")
+	)
+	(hierarchical_label "VOUT"
+		(shape input)
+		(at 111.76 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c58e8ff1-957f-4901-bca9-8177ea47fd7b")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
+		(property "Reference" "R18"
+			(at 127 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 127 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 122.682 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b40ae9df-933d-4aff-9416-18579523a493")
+		)
+		(pin "1"
+			(uuid "f6fcacac-d86b-4a28-b5c9-fc767aa43976")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "R80")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "R94")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "R136")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "R66")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "R122")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "R52")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "R108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "554923eb-c5fa-488e-a3ec-427ad118920a")
+		(property "Reference" "R2"
+			(at 115.57 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 115.57 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 111.252 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "483fb1ec-59b9-4757-802c-bff549e9ff3c")
+		)
+		(pin "1"
+			(uuid "59707b1c-9eab-44c8-9c9f-d859d2922b2b")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "R76")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "R90")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "R132")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "R118")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "R104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "572eabb4-4c91-4326-9373-39e5b7521b82")
+		(property "Reference" "R14"
+			(at 127 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 127 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 122.682 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9151fb3-ff8b-40cf-af4e-059e421da99f")
+		)
+		(pin "1"
+			(uuid "c95c4379-fe50-45df-8239-91faa4817ecc")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "R82")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "R96")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "R138")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "R68")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "R124")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "R110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "583ea51d-32f2-4fbe-ac75-b13faa024baa")
+		(property "Reference" "R11"
+			(at 127 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 127 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 122.682 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c60990e4-26bb-4690-9ed0-d82c42072036")
+		)
+		(pin "1"
+			(uuid "6a2bfa2b-e6c9-4c44-aca7-6ea4419207a6")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "R84")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "R98")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "R140")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "R70")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "R126")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
+		(property "Reference" "R16"
+			(at 127 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 127 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 122.682 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a80525e-03a3-455c-9ce5-fc961cc85136")
+		)
+		(pin "1"
+			(uuid "b7e143d1-3fa2-44b5-9ec3-307192dfb29b")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "R81")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "R95")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "R137")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "R67")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "R123")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8208376-996c-4382-b8ac-1471f7ba4d67")
+		(property "Reference" "R15"
+			(at 115.57 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 115.57 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 111.252 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7dbbdf6a-f1d7-4f73-aba7-6ae73a8b58d7")
+		)
+		(pin "1"
+			(uuid "d3ed7e54-44cf-41a4-9712-bb89a75c66f3")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "R74")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "R88")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "R130")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "R116")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
+		(property "Reference" "R12"
+			(at 127 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 127 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 122.682 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1dafa96a-8679-461a-8e69-3625471272df")
+		)
+		(pin "1"
+			(uuid "fedbec11-5a1e-4c76-8451-47fdca0ccee9")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "R83")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "R97")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "R139")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "R69")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "R125")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b776ce42-6431-4bc3-9833-660a03877d17")
+		(property "Reference" "R10"
+			(at 115.57 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 115.57 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 111.252 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 113.03 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a345f04-1ffc-485f-bbeb-6142a10efbee")
+		)
+		(pin "1"
+			(uuid "cae69fdc-1a61-4309-95c1-8ad6ce681682")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "R77")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "R91")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "R133")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "R63")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "R119")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
+		(property "Reference" "R13"
+			(at 115.57 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 115.57 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 111.252 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "579a4317-607b-4e37-9cb6-f1b1a3db753a")
+		)
+		(pin "1"
+			(uuid "4cb93494-a8f2-4ba9-a29e-368c8b56e8c7")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "R75")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "R89")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "R131")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "R117")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7ae490a-44fe-4e31-9942-8f395f59f039")
+		(property "Reference" "R17"
+			(at 115.57 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 115.57 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 111.252 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc12769b-d30d-4ae4-8e7a-4683c8d199e7")
+		)
+		(pin "1"
+			(uuid "aa39fc98-d6e4-435e-a46c-3eb8970bc01c")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "R73")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "R87")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "R129")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "R115")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb624c76-e97b-4b9a-bc63-864a2fc8436d")
+		(property "Reference" "R1"
+			(at 115.57 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3Ω"
+			(at 115.57 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 111.252 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d34f8c5-6990-4ce3-8709-0a2230c3e7ab")
+		)
+		(pin "1"
+			(uuid "8b0dea94-d003-4f61-bd9a-af907353e86e")
+		)
+		(instances
+			(project ""
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM317_TO-252")
+		(at 113.03 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
+		(property "Reference" "U2"
+			(at 116.84 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM317_TO-252"
+			(at 116.84 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/snvs774n/snvs774n.pdf"
+			(at 113.03 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-252"
+			(at 113.03 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75510"
+			(at 113.03 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a449aa97-a3a3-418c-8bf4-22d9acb29569")
+		)
+		(pin "2"
+			(uuid "ae14f850-d55e-4151-8a87-ae701197ee53")
+		)
+		(pin "3"
+			(uuid "58d28804-eba8-4a8b-8b3a-43356cdfdae6")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4406daa2-dec6-4f23-b34e-d503416a23d2"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/4a28e35a-e5b3-42e2-a59c-465d5b93c647"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5c7192fb-f035-40ba-a8a1-f0611ec46f5f"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/5e9d9d7e-3be6-48ac-991a-7c7268ea47be"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/9721af13-b1e4-48a6-af62-4dfba40bb6be"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/affb0424-0701-40b2-86a8-bf990891b156"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/bb984372-4df6-4b41-8960-3adaa1a699bb"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c0abd3e2-33f6-43ba-9617-d59626e4cef7"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/c231179e-bb37-40da-b974-4aea12d89327"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5/e15a40c9-739c-463e-968e-8741dc0084c5"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
