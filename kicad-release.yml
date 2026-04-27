@@ -12,9 +12,12 @@ pcbs:
   text_variables:
     - key: TAG
       val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}
 
-pcbs:
 - id: solar-battery-tester
   text_variables:
     - key: TAG
       val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}

@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -86,7 +86,7 @@
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -677,13 +677,13 @@
         "uuid": "41767b7e-06fc-44e0-983a-87adf49b5eb5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1",
     "variants": []
   },
   "sheets": [
     [
       "41767b7e-06fc-44e0-983a-87adf49b5eb5",
-      "solar-battery-tester"
+      "solar-battery-load"
     ],
     [
       "c231179e-bb37-40da-b974-4aea12d89327",

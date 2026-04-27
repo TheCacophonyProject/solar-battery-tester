@@ -28979,6 +28979,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "${TAG}"
+		(at -28.1 -37.1 0)
+		(layer "F.SilkS")
+		(uuid "4262cfe4-dd11-4a70-9a7d-4db181305ea2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "${HASH}"
+		(at 17.5 38.3 0)
+		(layer "F.SilkS")
+		(uuid "f880c699-8081-4d68-bb0f-c20beefb76aa")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text_box "Layout setup:\n1) Position LM317 at (0,-34)\n2) Select the LM317 from sheet 1 -> Tools -> External Plugins -> Place Footprints\n	- Arrangement: Circular\n	- Radius 34mm\n	- Angle 36 deg\n"
 		(start -43 -74)
 		(end 42.5 -57)
