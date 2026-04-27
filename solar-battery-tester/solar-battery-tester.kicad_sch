@@ -5821,6 +5821,16 @@
 		)
 		(uuid "06b4d0db-453b-4b8d-a7aa-cccfcefaa16d")
 	)
+	(text "Fan Power"
+		(exclude_from_sim no)
+		(at 368.3 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f3580b1-5332-4fea-b1fd-8328be4db2cd")
+	)
 	(text "Battery Pack Plug"
 		(exclude_from_sim no)
 		(at 154.686 28.194 0)
@@ -5873,7 +5883,7 @@
 	)
 	(text "Temperature sensor"
 		(exclude_from_sim no)
-		(at 242.062 134.366 0)
+		(at 231.14 130.048 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5919,6 +5929,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a7d8e58-aa32-4b79-855b-e6fe160fadec")
+	)
+	(junction
+		(at 374.65 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d31277c-23d1-475e-a750-221e045213c9")
 	)
 	(junction
 		(at 228.6 143.51)
@@ -6059,6 +6075,12 @@
 		(uuid "a66fce5e-48bd-4add-a2b4-3de73cee2d3f")
 	)
 	(junction
+		(at 383.54 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab6525af-86d3-4e51-9fff-aa306693a15d")
+	)
+	(junction
 		(at 39.37 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6135,10 +6157,6 @@
 		(uuid "27c88387-06bb-4a4a-9626-af5d4acbb36e")
 	)
 	(no_connect
-		(at 356.87 194.31)
-		(uuid "5f261c98-59e7-4bda-8e9e-5e45ea0591a5")
-	)
-	(no_connect
 		(at 76.2 140.97)
 		(uuid "65c7efca-1700-4984-8e29-0986169bd324")
 	)
@@ -6193,6 +6211,16 @@
 			(type default)
 		)
 		(uuid "032a57e1-5150-4632-a085-418a10e72c44")
+	)
+	(wire
+		(pts
+			(xy 369.57 113.03) (xy 374.65 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c6281d-ce43-4463-9ea1-e5aba41964a0")
 	)
 	(wire
 		(pts
@@ -6866,6 +6894,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 106.68) (xy 383.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfe540e-1df2-48d8-9f77-5368a70968e8")
+	)
+	(wire
+		(pts
 			(xy 30.48 123.19) (xy 31.75 123.19)
 		)
 		(stroke
@@ -6873,6 +6911,16 @@
 			(type default)
 		)
 		(uuid "4c8506e1-2294-4382-a187-79e26fc3e93b")
+	)
+	(wire
+		(pts
+			(xy 374.65 113.03) (xy 374.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc8f093-bd4d-4f16-9cdc-57c3cd5e90ee")
 	)
 	(wire
 		(pts
@@ -7416,6 +7464,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 113.03) (xy 375.92 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81319252-5f22-43d3-a34b-ba9bca2019e6")
+	)
+	(wire
+		(pts
 			(xy 356.87 196.85) (xy 358.14 196.85)
 		)
 		(stroke
@@ -7836,6 +7894,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 123.19) (xy 383.54 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ecd4b6-4328-473d-9fbc-583dcaadd85a")
+	)
+	(wire
+		(pts
 			(xy 187.96 243.84) (xy 195.58 243.84)
 		)
 		(stroke
@@ -7913,6 +7981,16 @@
 			(type default)
 		)
 		(uuid "afae9b68-a1c1-44c9-913a-6f7e61752100")
+	)
+	(wire
+		(pts
+			(xy 383.54 118.11) (xy 383.54 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30697fd-d271-43d9-9adb-d53d62c9668f")
 	)
 	(wire
 		(pts
@@ -8196,6 +8274,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 194.31) (xy 358.14 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93e4dc7-af0c-43f1-a7ef-81590e35f42d")
+	)
+	(wire
+		(pts
 			(xy 314.96 201.93) (xy 316.23 201.93)
 		)
 		(stroke
@@ -8306,6 +8394,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 102.87) (xy 383.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77caf24-fa42-4e97-9fb6-8f2db713b29b")
+	)
+	(wire
+		(pts
 			(xy 135.89 185.42) (xy 135.89 186.69)
 		)
 		(stroke
@@ -8343,6 +8441,16 @@
 			(type default)
 		)
 		(uuid "d8cffb5c-581c-4f55-8dc3-07f598592f8d")
+	)
+	(wire
+		(pts
+			(xy 383.54 123.19) (xy 383.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da347f0f-fbca-4d24-b2bc-f0aa1157223c")
 	)
 	(wire
 		(pts
@@ -8403,6 +8511,16 @@
 			(type default)
 		)
 		(uuid "de09fb46-a7cf-4d6d-b2d7-8af81e6f9f52")
+	)
+	(wire
+		(pts
+			(xy 360.68 113.03) (xy 361.95 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df464f59-f79b-47e8-ae5e-8d7f265eeecf")
 	)
 	(wire
 		(pts
@@ -8653,6 +8771,16 @@
 			(type default)
 		)
 		(uuid "f578af0d-3b93-4280-ac70-b7db64e527d7")
+	)
+	(wire
+		(pts
+			(xy 374.65 121.92) (xy 374.65 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60aedc8-52ab-48ed-af7c-51babeb48186")
 	)
 	(wire
 		(pts
@@ -9051,6 +9179,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "EN_FAN"
+		(shape input)
+		(at 358.14 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2820c412-d65b-4fa8-867d-379394033920")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 368.08 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -9619,6 +9771,30 @@
 		(uuid "82b009c5-e76c-4e86-9f00-113f4d6b73a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.3 68.7833 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "EN_FAN"
+		(shape input)
+		(at 360.68 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85f1e229-b143-4346-bc10-ffc1696a6255")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 350.74 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11968,6 +12144,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 383.54 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e15bb61-2551-421c-bb5e-cf2a033b1585")
+		(property "Reference" "#PWR0453"
+			(at 383.54 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 383.54 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 383.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4031573a-3a3a-41c1-a0d8-78bfa9421338")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "#PWR0453")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 203.2 242.57 0)
 		(unit 1)
@@ -13077,6 +13331,84 @@
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
 					(reference "#PWR0445")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 383.54 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34df20bb-bb01-4e6f-b4c5-ef90a52c3381")
+		(property "Reference" "#PWR0452"
+			(at 383.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 383.54 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 383.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c30ccbe0-e188-46bc-90c3-9bb682e86c72")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "#PWR0452")
 					(unit 1)
 				)
 			)
@@ -15678,6 +16010,131 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 374.65 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61eb5095-7e42-4866-aacd-446e57c13224")
+		(property "Reference" "R435"
+			(at 370.078 117.094 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 368.3 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 372.872 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 374.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 374.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 374.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 374.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 374.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69ba21a8-9476-43a7-86f7-601bb2ede7b0")
+		)
+		(pin "2"
+			(uuid "123e098f-e7f0-413a-b62a-91251028d206")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "R435")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 111.76 259.08 0)
 		(unit 1)
 		(body_style 1)
@@ -18158,6 +18615,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 365.76 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fa8d014-92b0-4fe5-8dcb-4e7021a26ee3")
+		(property "Reference" "R434"
+			(at 365.76 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 365.76 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 365.76 111.252 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 365.76 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25076"
+			(at 365.76 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 365.76 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 365.76 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 365.76 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a6880a8f-bd33-45fd-84f7-222061c26742")
+		)
+		(pin "1"
+			(uuid "b35365cb-db5c-4075-bee8-4da0a69e30a6")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "R434")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 53.34 154.94 270)
 		(unit 1)
@@ -18267,6 +18848,134 @@
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
 					(reference "J402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 381 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7b8c1ef-dadb-4889-b03d-3b0255cfd8d7")
+		(property "Reference" "Q410"
+			(at 385.572 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 387.858 124.714 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 386.08 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 381 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20917"
+			(at 381 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 381 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 381 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 381 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a9cfd0b-0bea-48ea-8500-1e2f3204f944")
+		)
+		(pin "3"
+			(uuid "9f4376bb-a2fa-4ad7-a668-44a3d4de8419")
+		)
+		(pin "1"
+			(uuid "4871133e-c2c8-4ee8-9519-a7df42f93574")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "Q410")
 					(unit 1)
 				)
 			)
@@ -21077,6 +21786,121 @@
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
 					(reference "#PWR0440")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 388.62 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3d741aa-677c-4061-8f8b-921a84fd4ab7")
+		(property "Reference" "J409"
+			(at 391.16 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 391.16 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 388.62 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 388.62 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 388.62 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 388.62 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 388.62 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "504039d1-b761-4366-a12a-9aa096aa0d10")
+		)
+		(pin "2"
+			(uuid "e1e530fe-069c-4ff7-84e1-85569aa55e72")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "J409")
 					(unit 1)
 				)
 			)
