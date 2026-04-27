@@ -561,7 +561,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 400,
     "annotation": {
       "method": 0,
       "sort_order": 0
@@ -734,13 +734,13 @@
         "uuid": "31e694ee-be1b-4b65-934d-7c826c4bd02c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R401-433,U401-405,Q401-409,L401,J401-408,H401-404,D401-404,C401-414,FB401,#PWR401-451,#FLG401-403",
     "variants": []
   },
   "sheets": [
     [
       "31e694ee-be1b-4b65-934d-7c826c4bd02c",
-      "solar-battery-tester-controller"
+      "solar-battery-tester"
     ],
     [
       "bceb424a-0e47-445d-8094-cecba2bf081f",

@@ -204,10 +204,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b65b73af-86c6-4b50-ae05-03488c493300")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -374,10 +393,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03bd030d-97df-47c4-892b-6e5d0a7153d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -544,10 +582,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d966cb6e-3ebf-4399-ad59-80a1a8547c17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -714,10 +771,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2114d0a4-2723-4bbb-8455-32d859fcc63e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -884,10 +960,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e14f762-c4bf-4511-b12a-25f46dff2b2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1054,10 +1149,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2278eeb-a738-4144-9ae5-798da38d2467")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1224,10 +1338,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1297746-9e13-4540-baf6-f55a04f39460")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1394,10 +1527,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6a42350-4780-4481-a784-d779792c7530")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1564,10 +1716,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81109c96-9614-4424-b1be-3f82f4d781d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1732,10 +1903,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1af0922-7ebd-4f33-90bb-bae02016b22f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1900,10 +2090,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5992c9ac-2483-4ca0-9ab9-65dfbf9feb52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2070,10 +2279,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61155327-b485-41ed-bccf-585d3774006b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2240,10 +2468,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc9d4320-f404-4f8d-9c72-1d45d46d8e24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2397,10 +2644,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da8cd11b-964c-4888-9c6e-c439787493eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2565,10 +2831,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "872605f5-bb6d-45da-adf0-85df79952244")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2735,10 +3020,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f17ae793-e264-440b-9da1-3bee56bf58fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3054,10 +3358,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc183d38-5941-4ee5-91e4-d96168648c25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3224,10 +3547,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad5107a4-9263-47db-95ee-6848c0d78054")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3394,10 +3736,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3755fff0-5ebf-419c-bae7-654bd0095e47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3562,10 +3923,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dbf6f85-ff3d-4e2e-ba76-dcf29ead88c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3732,10 +4112,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dffe5ee-4857-4def-a367-98b78235053d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3885,7 +4284,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start 1.8 -3.117691)
@@ -4163,10 +4562,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fde30839-0754-4d29-856b-3dad15a23de8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4331,10 +4749,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a9dc340-efde-4295-ac54-30976db0a6e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4663,10 +5100,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d1b1fe1-96e5-49ca-a85c-6996056d0bec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4833,10 +5289,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "703ee6d3-7c31-449a-ae7e-002bcb8fe5bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5001,10 +5476,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f5ca218-8e04-4591-b2b6-348316b5b992")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5169,10 +5663,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de35f50f-a885-455e-aacb-978244819756")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5339,10 +5852,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7e35567-b693-4674-9657-7542a1856e3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5496,10 +6028,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19a78252-78a9-4399-b624-0b4df3056d8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5666,10 +6217,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b399785-2119-4dbe-bac9-d0a1301334b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5834,10 +6404,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9be7e5b7-814a-44bb-aefe-87e1ac88d68f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5991,10 +6580,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c17e3edd-f4c1-4dc1-ae9c-6e2a793accb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6161,10 +6769,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ee02ea4-9dd1-4a2c-ba7d-ee140ffe66c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6331,10 +6958,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11851de6-9cc6-4f23-bb94-f8bb3a1a3b0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6501,10 +7147,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c88f1fb5-fcd8-467b-a480-b3f59c7f1f54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6671,10 +7336,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e3c3e2a-8e1f-4d34-9598-bee15e6d97a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6839,10 +7523,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d490234f-84d0-40cf-a160-b1778d843a8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7171,10 +7874,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa71b77e-7ffe-48dd-b309-3afaa35d2247")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7339,10 +8061,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3396cc62-c5f4-42d2-bd93-899954ebd288")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7670,10 +8411,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e797ba6-1739-44c7-a0fe-dae3fd56f80e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7838,10 +8598,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e4ee334-31ac-456b-bc16-2feaf3578ebb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8006,10 +8785,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47831f85-ef42-42b3-978f-d68376ff3db2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8176,10 +8974,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28554a42-5ba6-4db3-8d06-2f7138dac9a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8508,10 +9325,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05efa0e3-be59-4712-a2b3-238939cb5bfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8678,10 +9514,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e3d4983-3bf0-4af8-add6-25254d5f6719")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8846,10 +9701,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7edcdff-17a4-40e0-87f5-f5d25e88915b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9014,10 +9888,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d07b0511-952a-46cf-8ec1-d956ac6f5ad3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9182,10 +10075,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14c3b572-e182-4929-9a4a-9ef1cdb8516f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9352,10 +10264,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "455d9631-6fdc-41d2-99d9-76ab2795b274")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9668,7 +10599,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start -3.117691 -1.8)
@@ -9946,10 +10877,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3c6ad2f-9ea4-487f-9366-b262ccfd0aca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10116,10 +11066,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "174b1301-4bbc-48be-9edb-3addc3643642")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10286,10 +11255,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "922bb930-d1e5-4bdc-893f-53cf476cdc82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10456,10 +11444,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b214af15-bb66-4d99-8d6f-f8f9ff72bbe5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10775,10 +11782,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2dc6853-3be2-4851-b00a-184723eddf93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10943,10 +11969,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f71105c-7849-4b1a-919b-b4feffd72296")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11113,10 +12158,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1980045c-7045-4bcd-a735-0268bfc0070d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11444,10 +12508,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6b0817e-bce3-47b8-9f36-5c84ec7d5d55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11612,10 +12695,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04317d76-2743-4d91-a6a6-25675d20db8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11769,10 +12871,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b3bae25-34ae-44b7-8e42-96f6e7ebaf3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11937,10 +13058,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43c9805e-88ba-4d89-b970-e29e2ede48c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12107,10 +13247,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb6bddbf-5dcb-4035-afa8-ca5f53fc8431")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12277,10 +13436,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9fdf14b-20db-4ab5-93e9-deef4690bd72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12445,10 +13623,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92f1a689-aefe-447d-bee2-8a4689cacac3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12600,7 +13797,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start 3.117691 1.8)
@@ -12878,10 +14075,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdfe787c-ca13-45b7-a31b-6a3ce671046e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13048,10 +14264,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4301aff-b351-47f3-bb7a-dfe3e47bef60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13216,10 +14451,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64e17ebf-46ca-4a30-832c-4a7fdde38bae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13373,10 +14627,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81e937e0-2c70-4b81-801f-9195cd6433ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13543,10 +14816,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a92c3441-4b59-4c44-86a5-208f4585381d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13711,10 +15003,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37b09550-4973-445c-8d19-e5ffd748b5c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13881,10 +15192,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b491fca2-a27b-497a-954c-5863761310dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14049,10 +15379,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55bedecf-27cb-491e-9bbe-095368d9d27b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14217,10 +15566,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3d7665d-6f32-44d9-a6be-611387b22690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14548,10 +15916,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac4988a0-0a05-41ed-ac71-73e8134aa6e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14716,10 +16103,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f7698f1-8f1e-4f60-a508-a114c68a232b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14886,10 +16292,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f94661d-c542-41ea-8206-93eab2ddf7a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15043,10 +16468,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9971a184-5a7a-40fc-8f3b-7249b3ac8b71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15213,10 +16657,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adeac7e9-022d-4b77-9f02-ee6a35e328f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15383,10 +16846,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbc8c672-1194-4edf-81bd-bd50ad8d06f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15551,10 +17033,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54623e84-2e76-4349-94be-f8ece43a8d17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15719,10 +17220,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67d4c0c7-66e8-4533-9c6b-60a9f1beabe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15889,10 +17409,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8763d17-d4c6-455b-a90a-3968c957fb21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16059,10 +17598,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1337e23e-0f6e-47a5-850b-3b0f516164fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16227,10 +17785,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af13fa93-bee6-4859-99ec-c59fa51f5299")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16397,10 +17974,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62ffe30d-a9fe-46b2-8415-a4a59e0264fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16567,10 +18163,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdeb568d-ad1e-4f44-8d23-871fd59dafc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16737,10 +18352,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "697bbfd2-9a17-44f2-89aa-894b30afd787")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16907,10 +18541,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "012f6600-477b-46d8-8131-b5b473fa2830")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17077,10 +18730,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b5f0935-3bdb-4f57-bd9a-f3308e07fcb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17247,10 +18919,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f0e7b5e-2730-4e50-8dd7-7a565c51e3d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17415,10 +19106,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2726d5ee-05ff-43e1-a9a9-2a83199c0d4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17585,10 +19295,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7eebbc6-037b-4f5b-8656-670228c2a151")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17755,10 +19484,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bc71978-3b60-4a70-a3ba-14e2a5b22221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17908,7 +19656,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start -1.8 3.117691)
@@ -18197,10 +19945,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5db755e4-a224-41fb-9bfe-743b8ee40cd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18367,10 +20134,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6399cd11-9243-4f59-8319-c9f826c84667")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18537,10 +20323,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e125838d-7b0f-4bf1-bd84-436fafc2e6ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18707,10 +20512,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98244ce7-7d82-49a7-a556-7923bf1d3b3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18875,10 +20699,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c58ce170-8ffb-41e9-9d31-ca2f026bf480")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19030,7 +20873,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start -1.8 -3.117691)
@@ -19308,10 +21151,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cb94c53-6a14-4ec0-a1a2-adb71f31e8a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19478,10 +21340,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbb6d289-8a80-40ad-8dba-afd0c34aed8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19648,10 +21529,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37440ef2-6ae4-4bd2-b364-8941eccc6aa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19803,7 +21703,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start 1.8 3.117691)
@@ -20081,10 +21981,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b042f2f2-67aa-4286-a8b1-d8f889508a49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20251,10 +22170,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b38c3c41-99e0-4249-b302-f772e0108e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20421,10 +22359,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01011000-8478-48b6-b096-99366faf5676")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20591,10 +22548,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf8a57e7-5062-4fd4-97c3-c4044cf12648")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20759,10 +22735,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76cff48f-6a38-4496-b492-08e8f4129972")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20929,10 +22924,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50eacb46-f3e7-4acc-8b11-b5c38571252b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/edd500f0-2259-4939-9c74-44948eb2c339/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_08/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21099,10 +23113,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a650edb7-acee-4747-928d-d99f0b88a316")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21269,10 +23302,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8de0953a-a1bd-41dd-99f4-2a871fd521c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21439,10 +23491,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "291ac27b-9a9f-4a85-b32e-7b744ffe58d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21609,10 +23680,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "885e6e11-b878-4305-a28d-1b79171d2e14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21766,10 +23856,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "febfb1c9-9013-499e-b326-68d8df2089f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21934,10 +24043,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec724d7e-4be7-4142-abc2-b993fe83f28a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22104,10 +24232,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8829e0b-c24c-4c93-bf4e-3492582aa4eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22272,10 +24419,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afa0203d-229d-426a-bd98-18b2cd113dbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22604,10 +24770,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cd8d5ff-a495-4a3a-b6d5-5897ef1322f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22772,10 +24957,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4985679a-5671-45cd-92a4-94b63b2a1276")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22942,10 +25146,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebdbf75f-d5cf-4e5f-86bf-04f53d7a6964")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23112,10 +25335,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 300)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "092b5403-b813-4244-ab51-92b093f079a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f01a3010-6f4f-4666-ae45-5b8710d30009/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_06/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23282,10 +25524,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc76a744-5327-41a0-b8fd-e7befd7c2036")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23452,10 +25713,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9971c97-ce68-434d-a2b4-0096c999cafb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23784,10 +26064,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf26a19a-281b-48db-ac18-89e2e2b48e0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23954,10 +26253,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c27c30ee-c699-4dac-a343-19e242718f18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24122,10 +26440,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c49e51a-ed8e-4b9d-b4dd-805c114c53db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24292,10 +26629,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C75510"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5051a861-8167-4151-953a-07c1a9fd27aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/ff43c2b8-d3b5-44d4-9ba2-63df10b5adab")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24624,10 +26980,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2979cdc-0818-419b-8ef8-12a806e59f6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24777,7 +27152,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start -1.8 3.117691)
@@ -25055,10 +27430,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 240)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c8e7752-9723-4c45-b937-df9ade1d8eaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/b776ce42-6431-4bc3-9833-660a03877d17")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25225,10 +27619,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c5815cf-72ae-4e94-9056-47464514fdda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/15cbc670-bff0-4b8c-8296-ecf96691027b/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_11/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25395,10 +27808,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1793a682-746a-4f6e-ad6f-de1509e6550a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25563,10 +27995,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe00a379-7402-4626-9377-abd258f912e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25731,10 +28182,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b646f50-0cd0-4417-a8bc-320b5fe4124f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a98290aa-8bf4-4519-b067-0977a928dcb7/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_12/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25901,10 +28371,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1028feed-97f3-4027-8a7e-db1928e92125")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/a7ac3e0c-b3f1-4ddb-971a-455732521b0e")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26058,10 +28547,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23ae0748-ed4f-47fe-a93b-1d755916f395")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f73f86ce-bfe9-4b6b-b356-e8735a8a44c9/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_09/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26228,10 +28736,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84ab94d1-ca7a-4532-b0e9-769314499abd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/554923eb-c5fa-488e-a3ec-427ad118920a")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26398,10 +28925,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "116f1d9b-ab6f-4624-ab78-ed4f77007560")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/a8208376-996c-4382-b8ac-1471f7ba4d67")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26568,10 +29114,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66dd8093-d716-4691-8c04-4e39a472e747")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26736,10 +29301,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ea7f646-e59d-4f09-8894-33a920df14bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/c50e80bc-210d-4ce0-a3a5-3dea45d0449a")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27055,10 +29639,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f875676-85a6-4663-b16c-75c4ea7b4214")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dd7cb018-e088-4976-b5bd-17a09c6997f1/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_05/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27225,10 +29828,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 60)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ddd40e5-a9ab-44d3-ad3d-ea7fc1cf8c0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e51a78c0-5958-43d0-9945-bef638c419da/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_02/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27395,10 +30017,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3519aaf3-0516-40e4-a4a3-29a506bcbdce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4674b42-59d3-4867-b462-dafa5b71f805/583ea51d-32f2-4fbe-ac75-b13faa024baa")
 		(sheetname "/250ma_cc_04/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27563,10 +30204,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ff9dd50-ab59-4205-ba38-a300f9c922fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/c7ae490a-44fe-4e31-9942-8f395f59f039")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27733,10 +30393,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e8db84a-7a4a-4cb6-ad08-fa2e64b804f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/65016063-57f7-4f19-b265-b261cb3173e0/b10f06bd-cb4e-4536-aa0b-9b8f6353ab77")
 		(sheetname "/250ma_cc_10/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27833,7 +30512,7 @@
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c2c7daf3-ac56-4678-85d4-1bf737985d26")
+			(uuid "d8097a0b-61c7-4e05-81a4-880dfd59db39")
 			(effects
 				(font
 					(size 1 1)
@@ -27844,7 +30523,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 1.430001 0)
 			(layer "F.Fab")
-			(uuid "065d324a-9f3b-4453-80d9-f0f1892e3e7e")
+			(uuid "cd85a020-70d3-46ce-b4e5-d7adf10d5dab")
 			(effects
 				(font
 					(size 1 1)
@@ -27856,7 +30535,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "415827ae-e628-4075-971d-aa7c716ee52b")
+			(uuid "caf35808-44f2-4699-8e25-6ecdf71b2752")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27868,7 +30547,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "632005e3-4562-4ab1-a800-9e2898331aa6")
+			(uuid "88fc19e8-e3a6-4b7a-8cfb-6bac59479de4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27886,7 +30565,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_arc
 			(start -3.117691 -1.8)
@@ -28164,10 +30843,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12c5cd0f-fb95-4da4-9ea9-6353a301df23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c231179e-bb37-40da-b974-4aea12d89327/2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e")
 		(sheetname "/250ma_cc_01/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28319,10 +31017,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17939"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f23471e3-5ccf-4aee-a0c8-5bd293ca05a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9f375c16-8bde-402d-8c54-9a971897def4/fb624c76-e97b-4b9a-bc63-864a2fc8436d")
 		(sheetname "/250ma_cc_03/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28489,10 +31206,29 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C17903"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcc7fc05-1625-4d43-a602-47da32d0486a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/54b1da64-cfb3-435c-a48f-e3c42e977ae7/572eabb4-4c91-4326-9373-39e5b7521b82")
 		(sheetname "/250ma_cc_07/")
 		(sheetfile "250ma_cc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37896,48 +40632,36 @@
 	)
 	(group ""
 		(uuid "0faeeda4-81c8-441f-8ee7-ca000ac1b796")
-		(members "0afd21c6-c28c-4b8a-8a70-d30fdb05b135" "0e0f6ae3-80eb-4ac3-84c1-7f13527afe3d"
-			"17faefe6-60ca-48f6-8975-f92951b5f5e0" "22daf677-6642-4382-8fc6-897d7da0d016"
-			"2c7ae447-b750-46e2-912e-c54da1c8df39" "2dbf8429-48e0-4b14-af75-d3b0be92032d"
+		(members "17faefe6-60ca-48f6-8975-f92951b5f5e0" "2c7ae447-b750-46e2-912e-c54da1c8df39"
 			"30d7cf43-634c-4034-aab1-5ac476a6143b" "373d4119-f51c-45e9-b263-880679b3b4d7"
 			"37f04f4a-6983-405c-ac88-95b8ea22c8ba" "3cc32e87-ebd8-4ed1-907d-14e8cd16a4d9"
-			"410f73cf-baaf-4eba-a1ee-22ddae5273ea" "4913a1b4-e58f-470b-8300-8f92d97e5546"
-			"4ec1ec92-fc32-4678-8bc9-77da875b1de8" "4f065a4f-6bac-4e93-98cd-9fba3b011993"
+			"4913a1b4-e58f-470b-8300-8f92d97e5546" "4ec1ec92-fc32-4678-8bc9-77da875b1de8"
 			"5905e0f9-9f13-4d69-bac8-517f89298d59" "5b621c01-bc33-4676-b426-048269322e15"
 			"5bbd8acd-7e79-4159-88e4-b038f4ddbc42" "628d10a7-6db7-46c1-8fda-345bf1d92d85"
-			"67df24e8-62e8-40e6-ac48-93425996f405" "72c8a1bb-3c37-4933-8f63-564e3d9ab600"
-			"7536fce0-50be-4833-ac10-94d042fc60bb" "789e0dd2-d97b-4952-813e-5b00931c6e8a"
-			"7ff0010e-c0c3-421c-be7d-0654a0b881ff" "81f2fdcd-319b-4fb6-af7b-2a5428a85f72"
-			"89a7ed5a-76a5-47a6-aa28-4624f59bb1d6" "9811d707-8608-4819-bc38-bb24ccaef657"
-			"a5aa6062-6908-4ea0-a70b-bd73d66aeff5" "a5e13d7e-4797-4511-a9f7-ea1d2cbc6aac"
+			"67df24e8-62e8-40e6-ac48-93425996f405" "7536fce0-50be-4833-ac10-94d042fc60bb"
+			"789e0dd2-d97b-4952-813e-5b00931c6e8a" "7ff0010e-c0c3-421c-be7d-0654a0b881ff"
+			"81f2fdcd-319b-4fb6-af7b-2a5428a85f72" "89a7ed5a-76a5-47a6-aa28-4624f59bb1d6"
+			"9811d707-8608-4819-bc38-bb24ccaef657" "a5e13d7e-4797-4511-a9f7-ea1d2cbc6aac"
 			"aac0f8e3-edef-403c-830c-47d78b6ab3b5" "ac5412fe-d3c0-40b2-bdbc-307e1d0e406b"
 			"aea4827e-7171-49fc-97c5-5faa6575011e" "b239f1d5-7c8a-4a8a-8e22-48969035238f"
 			"b839de4a-304a-4e87-8f77-d31827e13e61" "ba4e1a24-ba18-4791-83cb-63641f114e0b"
-			"beeac93a-d68c-4f22-ae87-8380df8e3915" "c69da43f-ff3c-440c-bc16-51a0827b9ab5"
-			"d0c6c702-ef85-45a4-88f3-177485f93ed0" "d5ecd00d-25bc-43cb-9453-e634238e46f5"
-			"d7b04593-48ab-45ba-b2b5-15f1cc8a0f3b" "ea6349b9-dedb-4be8-9e41-3986afb42359"
-			"f339ae36-3e84-42df-92b3-5150142ac7b4" "f3e8a1e0-a0b1-43b5-853e-cd052e8f6075"
+			"c69da43f-ff3c-440c-bc16-51a0827b9ab5" "d0c6c702-ef85-45a4-88f3-177485f93ed0"
+			"d5ecd00d-25bc-43cb-9453-e634238e46f5" "f339ae36-3e84-42df-92b3-5150142ac7b4"
 		)
 	)
 	(group ""
 		(uuid "20b3b95f-a2ef-49e8-b224-2561631cefc3")
-		(members "04bf055f-b0e9-411d-936c-831ad3d7f000" "0caf33d3-daab-4e8d-96da-384af83e7324"
-			"1340e331-85ca-4167-b77b-fad11ed285b4" "1adc6142-b2af-416f-9507-9c4670bb5d1f"
-			"32c90b53-99ee-421f-89b2-aca0eb440ab8" "34bffd58-bfca-4715-adce-192527021736"
-			"3ae777d6-1ef6-4fa6-88f3-ec6364ddf327" "4ba7b141-36b5-4bf6-9978-8be3cd675a5d"
-			"4d23b3c8-2d29-43ed-b652-ea8a95cd09eb" "51aca558-18a1-4da2-8b89-9afd96bc191e"
+		(members "04bf055f-b0e9-411d-936c-831ad3d7f000" "3ae777d6-1ef6-4fa6-88f3-ec6364ddf327"
+			"4ba7b141-36b5-4bf6-9978-8be3cd675a5d" "4d23b3c8-2d29-43ed-b652-ea8a95cd09eb"
 			"54109dba-6785-4619-9ae0-8078b14087b5" "54282e56-a25f-4887-9f4f-f1312cf76491"
-			"5938b595-e865-41b7-b8d8-ef732f1b0932" "5e328876-261e-42b0-ac43-9c64439b8348"
-			"60845d83-1c65-41b1-bfa9-b01674411d76" "642a92b3-ef80-4e8c-b30f-0126c1a6cd2c"
+			"5938b595-e865-41b7-b8d8-ef732f1b0932" "60845d83-1c65-41b1-bfa9-b01674411d76"
 			"65da1134-750b-4416-afec-6c7aceed6f04" "6b621e13-6e17-4330-9d30-0f14d54a8af3"
 			"6ec4a4a1-e2e3-43a4-972d-9d2ee71e61da" "76f7ef36-342d-48e8-810d-1523f822ed5b"
-			"7cd0d717-112c-4e1a-be49-079ce4995362" "8274c197-c5b4-4b2d-9c18-c4419d116d15"
-			"85f7aab6-6592-4f87-bd8d-5cf1486efb2d" "8a603e56-5c1c-4bed-a323-e1f47624fa62"
-			"9d5df992-908e-4e97-9b19-92a80b1a8097" "a969e2eb-aef6-422b-b486-ab0117cef4f6"
-			"af356481-7994-4549-911f-ed62843ff069" "b8f72817-a33f-478c-a595-3c9008d58e36"
-			"c121c0ac-ee33-4965-8320-622caafff10a" "c56fd204-2334-477b-8827-06ec6a4d4e2a"
-			"c63825dd-2b3b-4c4d-b6bd-911a88251844" "ca1bb441-0bc2-414c-828a-89e6d9a94e6a"
-			"caeb1458-a67a-49d2-84e9-c04183a4578f" "cb52c45f-9241-404f-a325-24794d8e4ab6"
+			"7cd0d717-112c-4e1a-be49-079ce4995362" "8a603e56-5c1c-4bed-a323-e1f47624fa62"
+			"9d5df992-908e-4e97-9b19-92a80b1a8097" "af356481-7994-4549-911f-ed62843ff069"
+			"b8f72817-a33f-478c-a595-3c9008d58e36" "c121c0ac-ee33-4965-8320-622caafff10a"
+			"c56fd204-2334-477b-8827-06ec6a4d4e2a" "c63825dd-2b3b-4c4d-b6bd-911a88251844"
+			"ca1bb441-0bc2-414c-828a-89e6d9a94e6a" "caeb1458-a67a-49d2-84e9-c04183a4578f"
 			"d2d39eed-d899-41c2-9f39-9e6c5185b6a7" "d4f21048-318b-4e3f-94c1-cbb1411b9b31"
 			"d573b329-cfea-4452-bbed-88540209ac7b" "e47cb347-5d21-4593-9f4a-c96fb668a81a"
 			"ed3a69b4-1938-47fb-8c5d-d99350cb1f1f" "eff5525c-77a3-4f83-9d2a-b1b2739959c6"
@@ -37947,51 +40671,39 @@
 	(group ""
 		(uuid "338e592f-a7a3-4be3-9b90-0f5e298d2384")
 		(members "00656fa1-520a-4137-a669-41442b410d9e" "01291e73-0cf5-471e-a21a-e40c11f8f36a"
-			"0164116d-5e52-4546-827f-76859e28022f" "0e239c6a-fef6-4e31-bf45-dc034c9d766e"
-			"1197a7d4-4999-4e93-ba6f-d5ad29a271d6" "11a9fe88-d979-4c05-a305-4d44b47e6242"
-			"1feba213-8d4c-4459-9d14-3ebc5409cea2" "3271be16-6855-4365-a957-3690cf03fda2"
-			"329b2ffe-8339-4e28-b24f-a9311c071378" "3afafbde-e918-4ffa-917e-17bab52ceb00"
-			"466c9223-9655-4491-9b38-fc71ec8fa746" "505d9106-c958-4dc0-b48b-5dc43098cf51"
-			"51a62b81-d81d-441f-849a-51a5412ca923" "51cb4c38-1405-411a-983d-33c54d8ea7e6"
-			"51f9d5fd-70ca-4ac6-99fb-5fbe6a739976" "5718196d-44de-4672-83e3-ab322db39fbd"
-			"5f15a223-ec49-450f-ad8b-34bc7b556035" "5ff2b557-3666-4d26-9998-386550b8abb0"
+			"0e239c6a-fef6-4e31-bf45-dc034c9d766e" "1197a7d4-4999-4e93-ba6f-d5ad29a271d6"
+			"11a9fe88-d979-4c05-a305-4d44b47e6242" "1feba213-8d4c-4459-9d14-3ebc5409cea2"
+			"3271be16-6855-4365-a957-3690cf03fda2" "329b2ffe-8339-4e28-b24f-a9311c071378"
+			"3afafbde-e918-4ffa-917e-17bab52ceb00" "466c9223-9655-4491-9b38-fc71ec8fa746"
+			"505d9106-c958-4dc0-b48b-5dc43098cf51" "51a62b81-d81d-441f-849a-51a5412ca923"
+			"51cb4c38-1405-411a-983d-33c54d8ea7e6" "51f9d5fd-70ca-4ac6-99fb-5fbe6a739976"
+			"5718196d-44de-4672-83e3-ab322db39fbd" "5f15a223-ec49-450f-ad8b-34bc7b556035"
 			"63194ea3-e423-4e1e-a1df-d2644831808e" "6713a147-8672-46cc-84ef-54b90cc065c8"
-			"6bdb407b-e0a3-4ebd-b340-74a429f0d4b2" "73aca84c-4a7c-4e97-950a-da9b5d05577a"
-			"7503c43d-0637-439a-b9aa-01c88427d593" "7aad2311-5074-4e3e-8551-db1a30bd6651"
-			"8611b9d5-db40-4038-b904-ad18c0a1d233" "8b11b6f7-65e2-4860-9f5f-056227f09c43"
-			"8dc65646-2e5b-41db-be88-d48984d08d67" "8fe04ae0-779f-4e2e-a719-cad003090264"
-			"98974d0b-7ff8-47a4-93ae-6f1564e66c9d" "9b96b904-8d43-4d20-9d3e-5d57025778d7"
+			"6bdb407b-e0a3-4ebd-b340-74a429f0d4b2" "8611b9d5-db40-4038-b904-ad18c0a1d233"
+			"8b11b6f7-65e2-4860-9f5f-056227f09c43" "98974d0b-7ff8-47a4-93ae-6f1564e66c9d"
 			"a51d3ddf-cba8-457d-b0e7-cf886bc48d60" "a8b022a4-0663-425b-9984-a895c271974d"
 			"bd1430b8-ec7f-44d0-abed-74fac124a9f9" "c3acb65f-c9bd-4e8a-a75c-3a785fb33727"
-			"c996623e-333f-4634-bc1f-9e1e8ae4ce91" "cfc964df-6803-4d84-ae82-5b09fa1c4a80"
-			"cfd584d3-34c6-41b9-b699-8e93d9776249" "d374e739-aa90-4c0f-9501-fb89998c4dd1"
-			"e72974bc-128b-40f8-a27d-2702e96539ef" "e7522fbe-de2e-4cbb-9c91-ae946c7af9ed"
+			"cfc964df-6803-4d84-ae82-5b09fa1c4a80" "d374e739-aa90-4c0f-9501-fb89998c4dd1"
 			"ec42af4b-2137-4bda-8509-0a554f5cba65" "ef3dc8c2-24ca-43ac-915c-a9846d747b26"
 		)
 	)
 	(group ""
 		(uuid "458afd9d-6bf2-405c-a0c7-4cf16c81e563")
 		(members "01b68099-a1a1-49c0-9c17-c29342ec0e3d" "0376762a-a11d-4014-b9fb-188b5da8ea45"
-			"05b37e1a-0339-40fa-a682-4665bf878784" "0cf91f66-847f-4edd-905e-1bf093c74493"
-			"1f862367-677a-4484-b8a8-7917bcac0a62" "244025bb-d8f6-4880-a479-0d467c5f42e2"
-			"2a97902c-3112-4f03-adba-a675752f9bfe" "2dcebe88-3f9e-442f-ab65-b66d62be8bb5"
-			"2ea95efa-f798-44e7-8b29-4f97fa9eebbc" "3053745c-53a3-4855-8480-7920376835a2"
+			"05b37e1a-0339-40fa-a682-4665bf878784" "1f862367-677a-4484-b8a8-7917bcac0a62"
+			"244025bb-d8f6-4880-a479-0d467c5f42e2" "2a97902c-3112-4f03-adba-a675752f9bfe"
+			"2dcebe88-3f9e-442f-ab65-b66d62be8bb5" "2ea95efa-f798-44e7-8b29-4f97fa9eebbc"
 			"392207c6-951a-4d1f-9282-ca47cefa5754" "3e98f945-97a7-4a0c-81e4-1610e433e25e"
-			"4357bca3-4a8e-4657-bf50-5593c1e9fb4e" "466f8396-ff73-4377-b207-941f8eafd85b"
-			"4d6c0b42-7f51-4363-9eb0-e8c05e669124" "4d768d84-3492-4664-9aca-2a4cfaec7c7a"
-			"507b5ba4-a32a-4817-9894-f7c4cde575bc" "57375487-2273-4988-b5e3-7d2101742282"
-			"5863842b-5d5e-479e-9f95-e256cc18462f" "5a572be7-cc1f-4e74-8b34-ccc565cfed9a"
-			"5ce8404d-cf20-4c05-896d-9c407a955c3f" "66cfaf57-b349-4469-bd27-9e1f24403c06"
-			"68514fd3-e09d-4bfe-b36c-5556810b64c5" "74478e4b-c2be-4a7a-aeff-b0a44d0477c8"
-			"7f21bf37-afdd-49c7-9a07-57a80ec5cd0a" "8762a0aa-11ee-4665-899c-fd6c78d260e4"
-			"8cae0b12-83dc-4e8f-8e29-39f00d0a0598" "904a276c-6dfb-4e4a-8fa0-b7c58cd8eb98"
-			"986dfdd5-2913-45f5-9ed1-b3af6fae7c26" "9c60c84e-d7cb-40ad-83e5-03f0cf9dbc60"
-			"a09beda6-e7fd-41d5-9e2b-27ba859fe54f" "aaaa0279-db46-40d6-a6ac-b48b36545bf3"
-			"b0683e2e-0047-457f-90d5-b7f7036d27a8" "b24be7d3-f1d4-4482-a681-e1875dff2c3b"
-			"c5973a94-9e7f-4141-904b-f3e9df900dbc" "d1b43ffd-3b43-4f0e-b3d1-896b628a1d19"
-			"da9a6461-cf72-4052-b240-7711243d520f" "dc0c1ea3-d242-4439-9bfa-8eb1a32101dc"
-			"e12a47b5-c10d-4be1-b98e-2575b58b01ce" "e1befcac-b408-4cc4-a89c-32a3c151f33d"
-			"ebf6d2d3-324a-48f4-9710-c043da6d3f7a" "f4dd0071-bde4-4010-91d8-33cc15c83d09"
+			"4357bca3-4a8e-4657-bf50-5593c1e9fb4e" "4d6c0b42-7f51-4363-9eb0-e8c05e669124"
+			"4d768d84-3492-4664-9aca-2a4cfaec7c7a" "507b5ba4-a32a-4817-9894-f7c4cde575bc"
+			"57375487-2273-4988-b5e3-7d2101742282" "5863842b-5d5e-479e-9f95-e256cc18462f"
+			"5a572be7-cc1f-4e74-8b34-ccc565cfed9a" "5ce8404d-cf20-4c05-896d-9c407a955c3f"
+			"66cfaf57-b349-4469-bd27-9e1f24403c06" "7f21bf37-afdd-49c7-9a07-57a80ec5cd0a"
+			"8762a0aa-11ee-4665-899c-fd6c78d260e4" "8cae0b12-83dc-4e8f-8e29-39f00d0a0598"
+			"986dfdd5-2913-45f5-9ed1-b3af6fae7c26" "a09beda6-e7fd-41d5-9e2b-27ba859fe54f"
+			"aaaa0279-db46-40d6-a6ac-b48b36545bf3" "c5973a94-9e7f-4141-904b-f3e9df900dbc"
+			"d1b43ffd-3b43-4f0e-b3d1-896b628a1d19" "e12a47b5-c10d-4be1-b98e-2575b58b01ce"
+			"e1befcac-b408-4cc4-a89c-32a3c151f33d" "ebf6d2d3-324a-48f4-9710-c043da6d3f7a"
 		)
 	)
 	(group ""
@@ -38001,75 +40713,51 @@
 			"1ece9a28-824f-4dfd-8a3b-0d2e44d07b00" "271d8a17-117a-4b92-ba5b-6c176ccf368e"
 			"2ff12280-2fc3-4bd4-b48d-370a3b43413a" "3070e774-8eeb-466a-97ff-38397d4e1e85"
 			"31c85562-52a9-4ce7-9b1b-08e044aaaa07" "366c2f3e-5fa9-4cfc-8ed7-9f464642fca2"
-			"42d58786-f2d7-4dd3-add2-d07d9e4d512b" "48e22b77-8794-4730-a114-6456dce27b7d"
-			"4e50f34b-18ac-41d0-b159-14f93c932ec8" "54b2b988-32af-4ee1-bc13-42ffb1975c42"
-			"58288936-3c54-489f-8061-841428f1b87f" "59ab6486-ab03-4373-a50b-ec775e883080"
-			"5d35b2d5-f654-4ef6-aacd-a49e09867ffd" "600b9b5a-78ca-4832-a80f-7b91c9e5fa07"
-			"7ca63d9b-744e-428c-9a01-693781f3d360" "81b4d953-d89f-4d4b-ae49-ea13497cfc2d"
-			"836ba08a-1b5f-4d10-b0c3-6ae75c33fcab" "83f96f14-77f8-42ce-a4a1-d3b5b326dc89"
-			"8753d248-e302-46f1-9fe7-4a3017f8087e" "882d3b1b-80d0-4f27-b817-ac693743c142"
-			"8d5cf414-1339-46e1-bdb8-d616ef890e27" "93a1eed6-d657-4052-9134-1e38bb6ae6c4"
-			"9dd1f5c6-1baa-46f4-8d05-506ef788ae09" "9ebcf3c9-fb51-4833-8435-589769e4697e"
-			"a9701d62-b19b-4e50-9a2a-aadf6c7f11eb" "ae465b78-bce0-4638-9bae-f1576a1bfe4d"
-			"b3c7b047-c072-4db5-862b-4169e251b9e5" "c715a7e9-3b96-4ea3-b42e-620d668e53a7"
-			"d1e20e55-65fd-48eb-aa6d-4d028c6e3f1f" "d4d80291-0d5f-47d2-b999-dca6cf4a9076"
+			"42d58786-f2d7-4dd3-add2-d07d9e4d512b" "4e50f34b-18ac-41d0-b159-14f93c932ec8"
+			"54b2b988-32af-4ee1-bc13-42ffb1975c42" "58288936-3c54-489f-8061-841428f1b87f"
+			"59ab6486-ab03-4373-a50b-ec775e883080" "600b9b5a-78ca-4832-a80f-7b91c9e5fa07"
+			"81b4d953-d89f-4d4b-ae49-ea13497cfc2d" "836ba08a-1b5f-4d10-b0c3-6ae75c33fcab"
+			"83f96f14-77f8-42ce-a4a1-d3b5b326dc89" "882d3b1b-80d0-4f27-b817-ac693743c142"
+			"93a1eed6-d657-4052-9134-1e38bb6ae6c4" "9dd1f5c6-1baa-46f4-8d05-506ef788ae09"
+			"9ebcf3c9-fb51-4833-8435-589769e4697e" "a9701d62-b19b-4e50-9a2a-aadf6c7f11eb"
+			"b3c7b047-c072-4db5-862b-4169e251b9e5" "d4d80291-0d5f-47d2-b999-dca6cf4a9076"
 			"d70d5326-9602-48d3-ace9-c08dab2524f8" "d9a1c66f-d8de-4d34-83e2-a1036e9089bd"
-			"eae81eb5-7111-4ff5-a24a-27dae814a1f2" "eb60ef0f-03ea-454d-9afe-be2231300990"
-			"f8ebd4d3-1357-4670-bfee-3d441ad466d9" "fa678697-dc38-46ed-881a-8385a73fe029"
-			"fbd0790c-8eef-4219-9c7a-ec963e001a47" "fe15eb5f-2c61-4f0d-9c57-54fdecc0ffc8"
+			"fa678697-dc38-46ed-881a-8385a73fe029" "fbd0790c-8eef-4219-9c7a-ec963e001a47"
 		)
 	)
 	(group ""
 		(uuid "70f43e7a-3b97-4da1-b5b2-bd2cbfcf0f86")
-		(members "0b0344a3-c974-4e29-91e5-8b4eb9acb878" "0b6b792d-54f0-441d-b8c6-d7b65d81cda8"
-			"0fc57c77-94fd-438a-8882-5ded452e3596" "10191755-a9cd-4f9c-82c8-6e3f618fa507"
-			"163ced60-1099-462a-9ba1-e2f8147223f0" "1a40fe01-47ee-407d-b640-7abe64492ea0"
-			"28f518d8-a92a-4b80-bd51-9065ad6e0ed6" "339e1592-749c-4149-844f-dc9bb6cec47d"
-			"35f2ba3a-4bf6-49a3-a044-8f407e7ad1da" "38a24654-4a7c-4b3a-8b06-f4062d7c20ab"
-			"3987be86-3905-417c-a8f0-3df79cc32f15" "3e571eda-89ba-4cef-b166-d87f93e0b87c"
-			"40a99645-2b59-48c7-96f9-32eff82cdf15" "421e59d6-5cb8-442a-81cc-f295a52bc5d3"
-			"47e17637-84be-41eb-82d0-13251c0095cf" "4fd0577b-2003-4460-a2b7-7f71223cfb95"
+		(members "0fc57c77-94fd-438a-8882-5ded452e3596" "35f2ba3a-4bf6-49a3-a044-8f407e7ad1da"
+			"40a99645-2b59-48c7-96f9-32eff82cdf15" "47e17637-84be-41eb-82d0-13251c0095cf"
 			"5203d488-06cf-4bfe-aab7-ad0d0a3f62c2" "5aa00ca6-b2f9-45b8-82b7-d5a8c51001db"
-			"5b1a9a70-82e5-417b-92e2-540068470b7d" "5b36b39d-2fe5-445d-b59d-2c8e5ed681d1"
-			"6690f835-5d9e-442a-9e87-1a3d4f10c175" "6a47903d-e03f-4802-9c28-fc9a59694e9e"
-			"6b9c6006-8b26-4670-882f-46d5029d874c" "704548bc-f54f-4ba3-96ad-4528c3342727"
-			"773df4b4-60b9-4c13-a75e-54f5d3370a45" "79d17a60-0713-4173-8222-9d8052b1c3fe"
-			"7d5a449b-3e4c-43a7-a0bf-7c5c5bbfea7e" "88444cd3-37be-4a85-a1b2-e2af0fbcad45"
-			"8e159345-7ca1-4c17-a43a-bfc0696f19f1" "967eead1-1eb2-4fac-b9e6-5c8fe14ce139"
+			"5b36b39d-2fe5-445d-b59d-2c8e5ed681d1" "704548bc-f54f-4ba3-96ad-4528c3342727"
+			"79d17a60-0713-4173-8222-9d8052b1c3fe" "7d5a449b-3e4c-43a7-a0bf-7c5c5bbfea7e"
+			"88444cd3-37be-4a85-a1b2-e2af0fbcad45" "967eead1-1eb2-4fac-b9e6-5c8fe14ce139"
 			"98add8b8-1f8b-418b-960d-a19f9e0f5db7" "aba09228-8788-408d-89d4-dc9423fcdb7b"
 			"b63d8073-c01f-4c2e-994e-c215e21b9a7c" "b7bc618f-3ae9-4d6d-8dbd-08b08e20584d"
 			"b8bad306-954d-4fa9-a726-7757677e91c9" "bfcdaa1f-b2f4-42f7-a04d-ed87a5151082"
-			"c0c7a97a-b14c-4735-9d86-4620eedff806" "c2d49be1-1b14-436f-bb22-281ec16bfbff"
-			"c542f8ab-452b-4489-9726-6eae2a5a06f3" "c9516e47-5203-4464-9717-32ee92dfd4f8"
-			"c9586231-2b17-4f5f-b479-aed2c6b355ea" "d25ae159-2e5a-4e84-ae16-33fabb64c7cc"
-			"d3c05b0f-01c7-4bb2-bfe7-4893e81df4ce" "df370a19-b7d6-49af-9f0a-202fb5fa2045"
-			"e499a166-7d0b-4c8b-bb8e-82b71ebf2522" "ea20682b-1bae-4b15-80cc-7669ca78642a"
-			"edad2a18-b72b-4ba1-97e5-fa43a9406325" "f0c9c6f3-4b76-4e73-bd6d-67bdc7b50403"
-			"f354e647-0f0f-4287-9cd1-5d8570f2cceb" "f4806556-f89f-4907-bd70-b4e619f5cf2e"
-			"f8fa8c63-00fd-4282-be25-d87802c33c63" "fa6c354d-e4c2-491d-a2b5-bcaca8c4f31f"
-			"fd646a64-94f8-43eb-87ea-77f7aca3362c"
+			"c2d49be1-1b14-436f-bb22-281ec16bfbff" "c542f8ab-452b-4489-9726-6eae2a5a06f3"
+			"c9516e47-5203-4464-9717-32ee92dfd4f8" "c9586231-2b17-4f5f-b479-aed2c6b355ea"
+			"d3c05b0f-01c7-4bb2-bfe7-4893e81df4ce" "e499a166-7d0b-4c8b-bb8e-82b71ebf2522"
+			"ea20682b-1bae-4b15-80cc-7669ca78642a" "edad2a18-b72b-4ba1-97e5-fa43a9406325"
+			"f0c9c6f3-4b76-4e73-bd6d-67bdc7b50403" "f354e647-0f0f-4287-9cd1-5d8570f2cceb"
+			"f4806556-f89f-4907-bd70-b4e619f5cf2e" "fa6c354d-e4c2-491d-a2b5-bcaca8c4f31f"
 		)
 	)
 	(group ""
 		(uuid "8d9355de-22af-4f94-b2dd-602c0e8204ea")
-		(members "00301e4b-7f80-46b4-ab1a-f6c0169bdbbf" "02e89a99-f3fa-476c-8960-8eb97d334b41"
-			"090b2f26-baf1-4956-9529-76151f6d5061" "14d36b36-45d6-46a5-b7c7-8a662d693f76"
-			"16562624-e3be-4651-8c0a-b9e0a51c6c6e" "1a90943a-0edd-4ca0-9ecf-15bf1b5c578f"
-			"1ea46a53-8fae-484b-bd59-791247db11de" "2247e627-0278-473e-899e-16d5e36b0e43"
-			"2f93766c-e73d-4f4e-8c6a-c7043fcc42d4" "36d76152-0a08-45c3-aa12-a3287a4300b6"
+		(members "00301e4b-7f80-46b4-ab1a-f6c0169bdbbf" "1ea46a53-8fae-484b-bd59-791247db11de"
+			"2247e627-0278-473e-899e-16d5e36b0e43" "36d76152-0a08-45c3-aa12-a3287a4300b6"
 			"3a100a22-485a-4734-ac2c-bcde1f8c1197" "3c86dd3b-ec36-40ce-96e1-bf29c0c35b00"
 			"454ae5e8-94f7-4dfc-9ca3-b37d389d951a" "4741c8ba-be65-41ac-9bdf-d2876e1a22f6"
 			"4858bd33-334b-4734-8ae7-a76a88c52d8a" "518f986c-6712-4f3f-963d-34319a7aa6cf"
-			"5be0171a-d272-4db1-9f6c-16a47276c329" "7ae2ef0f-61fa-47a7-9db4-b32962cf5822"
 			"84e525b6-e78c-441a-9907-b2d4439760c0" "9467d61f-bffe-448c-bcb8-70e2d8f2b5a5"
 			"9e89f0db-82b4-45e7-9a28-0cdfca7f071f" "a00031a5-388d-4664-992a-2694dcdadc43"
 			"a2682128-6676-43fc-b930-0ca5d9148131" "af9e0a56-f43d-4027-9734-0a8d8d4f59a7"
-			"b14ff378-14c3-4cda-8ec8-1024c8ce96cb" "b31f25b5-ff37-40ab-8d7a-8cf59fbc5839"
-			"b398497d-deae-4950-b670-ff0a7dcc543c" "b72fc5b1-10d0-484c-9d19-b8188721a51a"
-			"b8856c3b-b29f-4288-bd34-71fff836645b" "b9ffdf60-c3df-4588-bd2f-98a1ca3b801a"
+			"b31f25b5-ff37-40ab-8d7a-8cf59fbc5839" "b398497d-deae-4950-b670-ff0a7dcc543c"
+			"b72fc5b1-10d0-484c-9d19-b8188721a51a" "b9ffdf60-c3df-4588-bd2f-98a1ca3b801a"
 			"bdeb4930-6a48-46b8-a639-58c40726326c" "c76cbb5e-f31a-48be-9c32-c2b63f462148"
 			"c9c10fc4-bf86-456a-8247-1df1ad694eaf" "ca72f0f9-8539-4cc9-8f04-17819a6fc621"
-			"cec30d2c-ecb6-45e2-86ee-93fa14297211" "e1092e97-4017-44bd-a0d6-c86413e100ee"
 			"ea9e25c4-2c75-4470-8573-56ec95f1747b" "eb46ad2c-0c85-41b4-aee9-6953597f8911"
 			"ec6299ee-dc57-4d2b-9942-2666383a38af" "ed9499dd-5285-4cc5-abcf-3ce00e65882b"
 			"f2593b6e-c431-463a-81c0-aa54d6197766" "fb95a313-25d3-4e9b-adf8-862de0a6abaa"
@@ -38078,70 +40766,52 @@
 	(group ""
 		(uuid "a4eacdb9-4d26-4315-9b45-89c03de7f5cd")
 		(members "02cef195-b7a1-4c22-b7c7-88b9e365b6ec" "05cdeecc-e79d-443b-b216-e85f88e1f9e6"
-			"068b935d-3f27-4fc8-891e-a58e8266afbe" "0978c981-f472-4612-a784-82e1a99a1333"
-			"0a58b596-2f65-41a7-bfd3-2228d0f7f178" "0e3e7868-b1fa-444d-b285-e2cdfb4efc21"
+			"0978c981-f472-4612-a784-82e1a99a1333" "0e3e7868-b1fa-444d-b285-e2cdfb4efc21"
 			"20f31d55-034f-4fdb-91df-e0405baaa12d" "276b267d-84b6-4c79-98a8-d3f0c38dcd2a"
-			"28cbc392-832a-4ea7-8073-76f368442d9d" "29839f27-1dee-49b9-b354-ad25213f932c"
-			"2b68a92e-4383-44e3-8650-0457f3f162c4" "2d0b1560-601f-43d2-a589-97976c530331"
-			"2e4c71d6-b367-40a7-bbec-d0c9ba775a14" "2ef55440-1a0d-4cfe-b6b4-6eb9264c2ca0"
-			"3e3fb78e-2c8e-4218-a44f-777525ea8c62" "3f3bc286-0974-4733-a26d-eac615a994b8"
-			"4106eee8-9045-4f10-82e8-f4acc5480506" "4410a960-4cc5-4a82-9b2e-2fd14f15bf15"
-			"45083412-27d2-495b-abae-f171e94917cf" "4786a692-7e5f-46ef-9823-9ad4454a9fae"
-			"537ba435-65ca-426d-8bad-6d0f9dda0038" "6b037bc9-fbc0-4369-8f7b-7baea4f20b22"
-			"72382063-b00b-440e-87b3-7b3b1fb2e505" "79341eee-55e6-4682-bcf5-eca01ebc0a7c"
-			"7d8bd395-27ca-46a7-a90a-75aaa6e63b72" "80f26e00-42a7-4a13-a125-31764edda45b"
-			"8897d668-8bb8-474c-8840-b22594fe283b" "8a8f571d-935f-4cb1-8136-b4664379db7a"
-			"9333def0-0199-4746-93b3-f251e771409d" "95014e1b-dfd8-4b73-8605-ee265e475831"
-			"9dd3155d-7b7c-4ae4-a010-b68db1d84c06" "a7813f13-071c-46a2-bb86-ae2f31357162"
+			"29839f27-1dee-49b9-b354-ad25213f932c" "2b68a92e-4383-44e3-8650-0457f3f162c4"
+			"2d0b1560-601f-43d2-a589-97976c530331" "2e4c71d6-b367-40a7-bbec-d0c9ba775a14"
+			"2ef55440-1a0d-4cfe-b6b4-6eb9264c2ca0" "3e3fb78e-2c8e-4218-a44f-777525ea8c62"
+			"45083412-27d2-495b-abae-f171e94917cf" "537ba435-65ca-426d-8bad-6d0f9dda0038"
+			"6b037bc9-fbc0-4369-8f7b-7baea4f20b22" "72382063-b00b-440e-87b3-7b3b1fb2e505"
+			"79341eee-55e6-4682-bcf5-eca01ebc0a7c" "7d8bd395-27ca-46a7-a90a-75aaa6e63b72"
+			"80f26e00-42a7-4a13-a125-31764edda45b" "8897d668-8bb8-474c-8840-b22594fe283b"
+			"9333def0-0199-4746-93b3-f251e771409d" "a7813f13-071c-46a2-bb86-ae2f31357162"
 			"aa928702-4d84-470b-b8ac-7b03405c9665" "b352b923-46ff-4652-9695-aafa3c6f3803"
-			"b5a66bf4-fd09-49b3-90d0-5d35117d3ff4" "bc46db05-5d58-4007-88de-db1612ddbbd5"
-			"c5f21875-87c6-4b77-8855-26260ed6dc53" "c6ea12ba-0195-44a6-8c2d-8be2d7375297"
-			"d149dcfd-40c9-401a-8ba6-21e1e8924ddb" "d6e073fe-3044-42f4-8c87-e6b37142656a"
-			"dc1752e3-38b3-4882-95c8-40dd49421f7f" "dece338a-2193-49c2-a851-ca3c42ecd64c"
+			"bc46db05-5d58-4007-88de-db1612ddbbd5" "c5f21875-87c6-4b77-8855-26260ed6dc53"
+			"c6ea12ba-0195-44a6-8c2d-8be2d7375297" "d149dcfd-40c9-401a-8ba6-21e1e8924ddb"
+			"d6e073fe-3044-42f4-8c87-e6b37142656a" "dece338a-2193-49c2-a851-ca3c42ecd64c"
 		)
 	)
 	(group ""
 		(uuid "c844915b-95c9-4c43-8a63-c8bfcbebc44b")
 		(members "066f2b50-fdae-4305-a409-d46a7d33b770" "0b8615a3-27d6-4a2f-a17a-90b330bf6e2a"
 			"0ed24950-e34a-43fc-ad1d-14df2f334ba3" "153a735d-fdaa-4439-88b8-3bf5d91a1d31"
-			"1a9cbebd-de7e-4688-acf9-730ca14c18b2" "227394b0-e155-4481-9e26-dbd6e4ba782b"
-			"23cd6f9d-e65b-4ca8-9a99-181bb4b7cfd0" "2a72713d-bc7f-4113-af8f-d88d99e4ffb3"
-			"2e601ad7-f93d-427f-a5d8-1f59e310ae74" "37bcaf33-3dfc-4cce-81c8-f0a6f7b65eb4"
-			"4353136f-c5f0-4db0-ad56-664450b1c1e2" "43675e9d-d10a-4cb9-8555-b4706cd7a28a"
-			"48e24234-9578-413c-bcd8-2c4774039399" "4d07afcf-82ff-48cc-bdd2-7e3055194d1a"
-			"4f785c33-d69b-4ad9-acb4-9a9dd45f0dd6" "5b7c6b07-3211-4b92-9fb6-ad4c9d00a2b2"
+			"1a9cbebd-de7e-4688-acf9-730ca14c18b2" "23cd6f9d-e65b-4ca8-9a99-181bb4b7cfd0"
+			"2a72713d-bc7f-4113-af8f-d88d99e4ffb3" "2e601ad7-f93d-427f-a5d8-1f59e310ae74"
+			"37bcaf33-3dfc-4cce-81c8-f0a6f7b65eb4" "4353136f-c5f0-4db0-ad56-664450b1c1e2"
+			"4d07afcf-82ff-48cc-bdd2-7e3055194d1a" "5b7c6b07-3211-4b92-9fb6-ad4c9d00a2b2"
 			"5d7c1eaf-b8f3-40de-a23a-a362c5d41be8" "61a3fa88-68d8-41c6-93a8-2f38029189d4"
-			"70ee011b-fc4e-4759-8cac-ff9bb75e291a" "73272644-a822-4bd1-be99-67a46f38bfd6"
-			"77d9add1-2931-42d2-95ea-b4b84666f434" "7aeb5a23-4efc-4348-a136-a78cb9f93877"
+			"73272644-a822-4bd1-be99-67a46f38bfd6" "77d9add1-2931-42d2-95ea-b4b84666f434"
 			"8280d132-8264-41a3-ad71-f139dae5a05f" "82895ed2-ad46-4730-9eda-33379e686ce7"
 			"85a2b532-455b-40c5-9d22-889a9b6b56bf" "88c8e11e-99b6-4429-8a39-ebb4fcc50baf"
-			"8b2eb470-b081-4baf-8e7a-7ef3fac912e0" "90b0e4a6-9234-4e3a-a41a-f06c3303c70d"
-			"93fd4721-1084-4992-a614-96a2759735c6" "a8ead587-8caf-4a66-8a03-8c1bdb5c6eaa"
+			"90b0e4a6-9234-4e3a-a41a-f06c3303c70d" "a8ead587-8caf-4a66-8a03-8c1bdb5c6eaa"
 			"b75ec716-9fa1-4120-91b2-c72f48a1bdfc" "bbb20a38-9c5e-45e2-844b-d16a45e2827d"
 			"bd6b6972-7938-497f-8ac1-658cbf9368b2" "cf9adc2f-d10f-4435-8d2e-77806acfe318"
-			"d3ffc0c7-327a-4f70-8969-6d87f38a38b3" "daedfee3-d64f-47cc-a7ad-2acdea0b1752"
-			"dcb5a4ec-be4f-4b1d-8074-92cc487077bb" "deef135f-bc50-4c7b-a887-af501b886cd4"
-			"eb56bac4-7f84-4c89-958b-2aa757114f1b" "ebf8579d-792b-44de-a995-66d9ba76632f"
-			"f6d32147-c91f-4087-8808-2abf1aaf1fb7" "fef43d12-f855-4d61-b997-a56ef1d9ebf1"
+			"d3ffc0c7-327a-4f70-8969-6d87f38a38b3" "deef135f-bc50-4c7b-a887-af501b886cd4"
+			"ebf8579d-792b-44de-a995-66d9ba76632f" "fef43d12-f855-4d61-b997-a56ef1d9ebf1"
 		)
 	)
 	(group ""
 		(uuid "d63d5360-84f1-4555-8f31-971a6337d3a4")
-		(members "026532a9-ab9b-4879-8147-29ddb16f9a39" "075554e0-cc65-41ba-88b7-ad3703dffcef"
-			"0ccc4a12-d9db-4422-bb82-038deda692fe" "10ef400a-20fa-4228-bbb8-4a36c7c9dbae"
-			"12821483-222d-4778-8b82-be120578e3a9" "17645a40-db45-4685-ba0a-2041cb76c38a"
+		(members "0ccc4a12-d9db-4422-bb82-038deda692fe" "17645a40-db45-4685-ba0a-2041cb76c38a"
 			"1b32b3ed-a9d4-443d-8a0b-3d16c5b3c48f" "1d862c91-23c6-45a2-a41f-fe945794ffe9"
-			"240e5488-49a6-40c8-a1a9-ac70e826a669" "26f82ae1-f818-4011-962f-d98b41bfccad"
-			"2df520df-2a19-4157-8d49-617b57a8afb1" "302439dc-715d-4d45-842f-553f6d3345f9"
+			"26f82ae1-f818-4011-962f-d98b41bfccad" "2df520df-2a19-4157-8d49-617b57a8afb1"
 			"312bbca9-87dc-4139-8b3a-6b2192cf8e44" "31b793e4-7cf4-4f41-88a0-ba0dde02f9b8"
-			"484f2a42-dc25-4661-9605-d8640e356828" "496aca66-2b6b-482f-9861-30e6a8aa2401"
-			"4e66efc9-8699-46c3-bf8b-4defb4b49e7a" "50ed891f-f4ef-460d-942a-f4ea104dd9a6"
-			"565876db-4474-4aa7-8844-d9312242021d" "666672b2-724f-4b72-b23f-63bcb46d669c"
+			"496aca66-2b6b-482f-9861-30e6a8aa2401" "4e66efc9-8699-46c3-bf8b-4defb4b49e7a"
+			"50ed891f-f4ef-460d-942a-f4ea104dd9a6" "565876db-4474-4aa7-8844-d9312242021d"
 			"6953d153-e8d6-4f35-85fd-0bc1e7de5775" "6a2b4355-6132-4934-9cf1-0361f9a991cc"
 			"6cf0b41f-ee37-445e-9d37-8cb1336791f6" "7750379e-ee73-4c5f-92e5-9c1311fbd51a"
-			"8389fbdb-4b1b-4e7a-916d-2c3ee01f7aef" "9388cdb0-6572-43f8-80fa-e5acc69429a0"
-			"9bad4d36-387c-4b81-a9e6-bf20cf289fea" "a4a380cd-c592-4f2e-a566-dfa3eea4f2c7"
-			"a9a0d9d0-a5ee-4471-8733-844f4fc4e718" "b00095b5-e411-457a-aa99-b7ba9a702162"
+			"9bad4d36-387c-4b81-a9e6-bf20cf289fea" "a9a0d9d0-a5ee-4471-8733-844f4fc4e718"
 			"b1f3e4a8-0a6d-4f74-ab09-e5befaab9557" "d14cf8a2-45ab-40dc-9ea3-db5f797648d3"
 			"d154f4b8-cffe-4549-a283-4c48221b16ea" "d2b91c6a-9049-4094-9c17-2232a266a5cc"
 			"da67525f-e08c-459e-aa66-27c29c442631" "df32d812-04e1-49e3-b168-a181b9a357ab"
@@ -38152,27 +40822,21 @@
 	)
 	(group ""
 		(uuid "faf47f15-29e8-4e61-aa1c-02c261d50519")
-		(members "02935bf8-740f-4727-8b5b-c19028e40f50" "186cde8c-13b5-4fde-92c7-31b3eca7327b"
-			"22cf4a47-310e-41ab-b58c-5a43bd1fd8c5" "2f69c2e0-39ab-4d54-96eb-aaf36546b3b4"
-			"346d3c0e-cb10-4438-aec5-a72b75a6861a" "3a07284f-31da-4131-b491-ba90fd6cf3c9"
-			"3c3481a2-88de-4d2a-b847-26c44d28a4f2" "4240c7ad-a7f2-4fbf-8d76-7b3d7b0daf4a"
-			"45f405b4-59e7-4edb-91a7-215c9e533f72" "4f2e1e46-e323-4237-be0c-3444e53098d4"
-			"5a00d069-ac28-4dae-a004-2dcc85aa2c80" "5dc90d71-d003-4ce7-9a0c-a92593addbf2"
-			"603cddbd-6d8e-42bd-b25c-b37783d6cfb8" "64aa86e1-07c9-48e7-b9b2-f569c686976a"
-			"65674cc1-a352-4615-bb05-f67555f24816" "68e7b865-5aff-4143-af43-adb18a2465f4"
-			"6ddf3d71-598e-49e6-a979-7306debb781a" "7745d700-b9f0-4e5d-a832-42044901fb41"
+		(members "02935bf8-740f-4727-8b5b-c19028e40f50" "2f69c2e0-39ab-4d54-96eb-aaf36546b3b4"
+			"346d3c0e-cb10-4438-aec5-a72b75a6861a" "3c3481a2-88de-4d2a-b847-26c44d28a4f2"
+			"4f2e1e46-e323-4237-be0c-3444e53098d4" "5a00d069-ac28-4dae-a004-2dcc85aa2c80"
+			"64aa86e1-07c9-48e7-b9b2-f569c686976a" "65674cc1-a352-4615-bb05-f67555f24816"
+			"68e7b865-5aff-4143-af43-adb18a2465f4" "6ddf3d71-598e-49e6-a979-7306debb781a"
 			"836b4597-f36e-4387-ad70-32f2a6057e06" "8ac166b2-6456-4bb1-9ab9-b3dccfbe719e"
 			"91a05ac4-cb02-4a14-9cc1-55cd80def54a" "99f09f2e-8bc0-45ae-b522-6f04da75ba5a"
 			"9abbcdad-7bac-4580-aa3f-ce6675e8da3b" "9eb98781-27c9-432f-a4a7-0c738f35f4f3"
 			"a44d3b91-f757-4115-89fd-6f438e523f55" "acc3d6de-92e1-4baa-8375-67a60a0cb026"
-			"add4dbc4-6f44-46ca-b4b8-1a1f5688c64f" "ae943a03-08bf-42b6-b0dd-8e5fe1f7f465"
-			"b058aff5-7852-4d74-b9dc-862e684843d5" "b0db4276-b244-4dc4-bd28-d932c2b7d63d"
-			"b82e6d03-562f-49d9-9102-f692ad6707e4" "b8f9e2be-91c0-40c0-ad5f-1500ce72caa7"
-			"bd521982-0a95-4484-a3f0-608e72ad050d" "c6ff3eb3-5968-4c05-a339-9b3eda1e6bf1"
-			"ca7648b9-11a7-4e4d-be06-5faeafe40db0" "cf20355e-811a-493b-acac-d2d0148ce56f"
-			"d16539b8-4a16-49c3-968d-6aa35959fda9" "d2dcaa93-ef7f-41f7-875c-db08a2084ee2"
-			"dbadd607-2c21-418f-bc2d-fc4e77af762b" "e6e1e0ff-7360-4257-b6dd-5e1f38da939a"
-			"ee051a58-d0e3-41f4-bc26-60ad1f3d9c24" "fe7fa071-6793-4928-911f-6e9934235926"
+			"ae943a03-08bf-42b6-b0dd-8e5fe1f7f465" "b058aff5-7852-4d74-b9dc-862e684843d5"
+			"b0db4276-b244-4dc4-bd28-d932c2b7d63d" "bd521982-0a95-4484-a3f0-608e72ad050d"
+			"c6ff3eb3-5968-4c05-a339-9b3eda1e6bf1" "ca7648b9-11a7-4e4d-be06-5faeafe40db0"
+			"cf20355e-811a-493b-acac-d2d0148ce56f" "d16539b8-4a16-49c3-968d-6aa35959fda9"
+			"d2dcaa93-ef7f-41f7-875c-db08a2084ee2" "dbadd607-2c21-418f-bc2d-fc4e77af762b"
+			"e6e1e0ff-7360-4257-b6dd-5e1f38da939a" "ee051a58-d0e3-41f4-bc26-60ad1f3d9c24"
 		)
 	)
 	(embedded_fonts no)
