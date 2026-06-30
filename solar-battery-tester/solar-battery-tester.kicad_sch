@@ -628,7 +628,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x10"
+		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -639,7 +639,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 12.7 0)
+				(at 1.27 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -648,8 +648,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x10"
-				(at 0 -15.24 0)
+			(property "Value" "Conn_02x07_Odd_Even"
+				(at 1.27 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -680,7 +680,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -702,7 +702,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -713,7 +713,514 @@
 					)
 				)
 			)
-			(symbol "Conn_01x10_1_1"
+			(symbol "Conn_02x07_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 3.81 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 7.747)
+					(end 2.54 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x10_MountingPin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x10_MountingPin"
+				(at 1.27 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x10_MountingPin_1_1"
 				(rectangle
 					(start -1.27 11.43)
 					(end 1.27 -13.97)
@@ -833,6 +1340,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -14.732) (xy 1.016 -14.732)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -14.351 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -1008,6 +1535,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1828,207 +2373,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4532,6 +4876,297 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "cacophony-library:LTST-S310F2KT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTST-S310F2KT"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "cacophony-library:LED-SMD_4P-L3.2-W1.5_LTST-S310F2KT"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-S310F2KT_C284950.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "LITEON(光宝)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LTST-S310F2KT"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C284950"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Light Emitting Diodes (LED)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LTST-S310F2KT_0_1"
+				(polyline
+					(pts
+						(xy -2.54 6.86) (xy -2.54 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.78) (xy -2.54 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.3) (xy -2.54 -6.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.6) (xy -2.54 5.08) (xy 0 3.3) (xy 0 6.6)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 2.54 5.08) (xy 2.54 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.52) (xy -2.54 0) (xy 0 -1.78) (xy 0 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.56) (xy -2.54 -5.08) (xy 0 -6.86) (xy 0 -3.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "-"
+					(at -5.84 -0.25 0)
+					(effects
+						(font
+							(size 3.17 3.17)
+						)
+					)
+				)
+				(text "+"
+					(at 2.54 0.23 0)
+					(effects
+						(font
+							(size 3.17 3.17)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 5.08 0)
+					(length 3.81)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -5.08 0)
+					(length 3.81)
+					(name "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "cacophony-library:MCP6002T-I_SN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4976,6 +5611,251 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cacophony-library:PJ-002A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "DC"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PJ-002A"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "cacophony-library:DC-IN-TH_PJ-002A"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C3096082.pdf"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "CUI"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PJ-002A"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C3096082"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PJ-002A_0_1"
+				(arc
+					(start -6.35 0.25)
+					(mid -7.37 1.27)
+					(end -6.35 2.29)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.05 -3.81) (xy -2.79 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.79)
+					(end -0.25 -0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.29) (xy -6.35 2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.25) (xy -6.35 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -0.25 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -3.05 -1.27) (xy -3.05 -3.81) (xy -3.3 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy -6.1 -3.81) (xy -6.6 -2.79) (xy -7.11 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 1.27 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -3.81 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -1.27 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6526,7 +7406,7 @@
 		(uuid "2c057d8a-ddc3-4b16-ac14-f63c7cbb1826")
 	)
 	(rectangle
-		(start 354.33 50.8)
+		(start 354.33 57.15)
 		(end 406.4 91.44)
 		(stroke
 			(width 0)
@@ -6599,7 +7479,7 @@
 	)
 	(rectangle
 		(start 354.33 13.97)
-		(end 406.4 49.53)
+		(end 406.4 55.88)
 		(stroke
 			(width 0)
 			(type dash)
@@ -6982,6 +7862,12 @@
 		(uuid "1d31277c-23d1-475e-a750-221e045213c9")
 	)
 	(junction
+		(at 30.48 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21247a82-0abd-490a-9b91-0bb4e2e343e0")
+	)
+	(junction
 		(at 172.72 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7016,6 +7902,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35066610-0a9c-4c3c-bf62-fb5f2d30cd1e")
+	)
+	(junction
+		(at 80.01 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36085508-6c27-4310-86a0-f514313cc053")
 	)
 	(junction
 		(at 92.71 59.69)
@@ -7060,16 +7952,16 @@
 		(uuid "6778c48f-06d2-410f-a004-be506185198e")
 	)
 	(junction
-		(at 59.69 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f78bd99-56b5-41c8-ab20-16c8d671b22e")
-	)
-	(junction
 		(at 149.86 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70506e60-241b-49ed-b417-29a206d92907")
+	)
+	(junction
+		(at 50.8 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b253768-1439-42c1-9bbb-4eaf9504f7c3")
 	)
 	(junction
 		(at 109.22 243.84)
@@ -7090,6 +7982,12 @@
 		(uuid "85aecf46-5f6b-490b-8dbb-514183b4d167")
 	)
 	(junction
+		(at 71.12 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "878a0e7e-229f-4e9f-b0cd-dc78d4ec0bdb")
+	)
+	(junction
 		(at 52.07 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7100,12 +7998,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f1363cb-616b-4607-9b75-65a6dc098789")
-	)
-	(junction
-		(at 64.77 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fb87d2e-e574-43d3-93fc-a117a9061402")
 	)
 	(junction
 		(at 378.46 100.33)
@@ -7162,12 +8054,6 @@
 		(uuid "b075b127-72e1-4e5e-99e5-a6940148e01f")
 	)
 	(junction
-		(at 54.61 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b73c219c-e1fa-4742-aee3-465c3f65d811")
-	)
-	(junction
 		(at 181.61 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7180,16 +8066,16 @@
 		(uuid "c41db279-fe4b-445d-9442-57ff94e67428")
 	)
 	(junction
-		(at 48.26 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c81223b2-feb6-48f9-8293-4cd21a54e7eb")
-	)
-	(junction
 		(at 161.29 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2a9b5b1-fd4e-443a-b9f3-8f3627b9a91f")
+	)
+	(junction
+		(at 62.23 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d846849f-0a26-41de-ba1d-ecea2f3d3684")
 	)
 	(junction
 		(at 92.71 34.29)
@@ -7240,12 +8126,6 @@
 		(uuid "faebbc74-e4a4-4c3c-9cf5-57e9b0b835df")
 	)
 	(junction
-		(at 80.01 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fca05899-7291-4625-951f-8aee5ae80c42")
-	)
-	(junction
 		(at 322.58 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7288,12 +8168,20 @@
 		(uuid "87f8d6e9-6c76-45e1-aae4-6b62179eb021")
 	)
 	(no_connect
+		(at 383.54 52.07)
+		(uuid "8816a11f-4b4d-4434-8588-8c1b1ff5fe58")
+	)
+	(no_connect
 		(at 236.22 179.07)
 		(uuid "df74e4b2-0066-4a8c-871d-b6e5c3884abb")
 	)
 	(no_connect
 		(at 351.79 180.34)
 		(uuid "e07ea62b-9e28-4ca5-b0db-fb225f0cb04f")
+	)
+	(no_connect
+		(at 96.52 135.89)
+		(uuid "fca1897b-b2cd-4418-b211-1b5c2f01f0b3")
 	)
 	(wire
 		(pts
@@ -7407,6 +8295,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 222.25) (xy 283.21 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c39676-1f62-40cf-82dc-7e2cf20178ca")
+	)
+	(wire
+		(pts
 			(xy 124.46 267.97) (xy 124.46 262.89)
 		)
 		(stroke
@@ -7424,16 +8322,6 @@
 			(type default)
 		)
 		(uuid "0887817a-9717-402c-abc1-7f9f8a64a541")
-	)
-	(wire
-		(pts
-			(xy 265.43 232.41) (xy 266.7 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0898a263-39bb-4857-9c28-d09ec9c4bd24")
 	)
 	(wire
 		(pts
@@ -7517,16 +8405,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 34.29) (xy 54.61 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "121e6172-a3b6-4e63-874c-ded579c56572")
-	)
-	(wire
-		(pts
 			(xy 81.28 59.69) (xy 83.82 59.69)
 		)
 		(stroke
@@ -7557,6 +8435,26 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 222.25) (xy 283.21 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17aa4fd5-6741-4b14-baab-0c583970d3e2")
+	)
+	(wire
+		(pts
+			(xy 62.23 34.29) (xy 71.12 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18244c31-3948-423e-b43c-1d0fbfa79fef")
+	)
+	(wire
+		(pts
 			(xy 377.19 73.66) (xy 377.19 74.93)
 		)
 		(stroke
@@ -7567,7 +8465,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 34.29) (xy 43.18 34.29)
+			(xy 48.26 34.29) (xy 50.8 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7584,6 +8482,16 @@
 			(type default)
 		)
 		(uuid "1979321e-6f07-4775-b499-993652948bc7")
+	)
+	(wire
+		(pts
+			(xy 50.8 34.29) (xy 62.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fe8f70-98b7-4b96-bcd9-18fe9b12eeab")
 	)
 	(wire
 		(pts
@@ -7687,13 +8595,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 44.45) (xy 48.26 44.45)
+			(xy 151.13 163.83) (xy 157.48 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "218dfdb3-cb12-4a20-8341-4bf8494ae438")
+		(uuid "20bbc321-c1da-4002-9e62-d4c106db6a53")
 	)
 	(wire
 		(pts
@@ -7717,16 +8625,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 189.23) (xy 124.46 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23c3fad5-5f89-4979-8655-0d959e0bf673")
-	)
-	(wire
-		(pts
 			(xy 226.06 50.8) (xy 228.6 50.8)
 		)
 		(stroke
@@ -7744,16 +8642,6 @@
 			(type default)
 		)
 		(uuid "23edfc2c-0c5a-4ef3-aa57-803cd8d1ac02")
-	)
-	(wire
-		(pts
-			(xy 265.43 222.25) (xy 266.7 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2796822f-6571-4bd4-8ca3-9fd544cfa469")
 	)
 	(wire
 		(pts
@@ -7877,13 +8765,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 34.29) (xy 30.48 34.29)
+			(xy 138.43 153.67) (xy 143.51 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32ef648c-382c-4409-8474-ce2e5c7f48b8")
+		(uuid "32482cf9-38c6-4dbf-a904-c06094916c57")
 	)
 	(wire
 		(pts
@@ -7954,6 +8842,16 @@
 			(type default)
 		)
 		(uuid "3887c9dc-3f6b-40a7-8b30-b3754a3b9454")
+	)
+	(wire
+		(pts
+			(xy 138.43 163.83) (xy 143.51 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b8c65a-3c18-4e47-8646-4471ff326c95")
 	)
 	(wire
 		(pts
@@ -8097,26 +8995,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 203.2) (xy 109.22 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "476f2822-6523-4e10-860e-3b5fe0158da7")
-	)
-	(wire
-		(pts
-			(xy 265.43 214.63) (xy 266.7 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "479c758b-c60d-4f43-9aa6-08785ba99145")
-	)
-	(wire
-		(pts
 			(xy 257.81 101.6) (xy 266.7 101.6)
 		)
 		(stroke
@@ -8147,6 +9025,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 158.75) (xy 157.48 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49dbc657-3fa2-470d-8993-021d997c6895")
+	)
+	(wire
+		(pts
 			(xy 204.47 193.04) (xy 204.47 191.77)
 		)
 		(stroke
@@ -8164,16 +9052,6 @@
 			(type default)
 		)
 		(uuid "4b8cf437-9caa-4d52-97bb-ffc1f779e351")
-	)
-	(wire
-		(pts
-			(xy 107.95 179.07) (xy 109.22 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bbd07cb-eb11-4df5-a4bc-a24e114c5013")
 	)
 	(wire
 		(pts
@@ -8227,6 +9105,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 153.67) (xy 157.48 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5014fa98-2d14-4c36-be86-8a00f07d8b49")
+	)
+	(wire
+		(pts
 			(xy 378.46 36.83) (xy 377.19 36.83)
 		)
 		(stroke
@@ -8277,16 +9165,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 189.23) (xy 93.98 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5622afab-9ce3-4b21-ab08-7aec20702603")
-	)
-	(wire
-		(pts
 			(xy 240.03 24.13) (xy 240.03 21.59)
 		)
 		(stroke
@@ -8317,16 +9195,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 224.79) (xy 266.7 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5adcf99c-699e-4700-a600-14acd9de141d")
-	)
-	(wire
-		(pts
 			(xy 30.48 243.84) (xy 40.64 243.84)
 		)
 		(stroke
@@ -8354,16 +9222,6 @@
 			(type default)
 		)
 		(uuid "5ce768b7-35c3-45b5-afc9-c378a844e437")
-	)
-	(wire
-		(pts
-			(xy 27.94 36.83) (xy 27.94 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d051881-beed-4a1c-9e25-b5519c535222")
 	)
 	(wire
 		(pts
@@ -8447,6 +9305,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 36.83) (xy 30.48 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a828da-1d8b-4ce6-a321-a9a563a05798")
+	)
+	(wire
+		(pts
 			(xy 325.12 59.69) (xy 325.12 60.96)
 		)
 		(stroke
@@ -8484,16 +9352,6 @@
 			(type default)
 		)
 		(uuid "63097c44-d771-491e-b18d-7da877fe95ee")
-	)
-	(wire
-		(pts
-			(xy 53.34 34.29) (xy 54.61 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63aba8af-8192-4832-8145-0f6adbaba860")
 	)
 	(wire
 		(pts
@@ -8555,16 +9413,6 @@
 		)
 		(uuid "68b302e9-62c6-485a-8be6-677704671d8d")
 	)
-	(wire
-		(pts
-			(xy 93.98 179.07) (xy 93.98 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69edbc86-c2ca-4755-8c1b-7d40a60e4f57")
-	)
 	(polyline
 		(pts
 			(xy 66.04 13.97) (xy 66.04 74.93)
@@ -8597,16 +9445,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 227.33) (xy 266.7 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d6d3ea1-5132-4409-996d-b5d08b4b1bec")
-	)
-	(wire
-		(pts
 			(xy 149.86 34.29) (xy 173.99 34.29)
 		)
 		(stroke
@@ -8614,26 +9452,6 @@
 			(type default)
 		)
 		(uuid "6e75ce0c-b40c-4912-bf17-8158bd576add")
-	)
-	(wire
-		(pts
-			(xy 109.22 179.07) (xy 109.22 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ed993d3-1f0d-42db-b193-8b65c3c18ba6")
-	)
-	(wire
-		(pts
-			(xy 26.67 36.83) (xy 27.94 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fcf4242-b20f-40fe-969b-833817f09641")
 	)
 	(wire
 		(pts
@@ -8777,7 +9595,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 34.29) (xy 59.69 31.75)
+			(xy 62.23 34.29) (xy 62.23 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8787,13 +9605,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 34.29) (xy 80.01 34.29)
+			(xy 267.97 223.52) (xy 267.97 222.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d6978f6-36fa-4436-b799-5712a4157a5f")
+		(uuid "7ea906a8-c5ef-41ec-8275-426e5f337de6")
 	)
 	(wire
 		(pts
@@ -8864,16 +9682,6 @@
 			(type default)
 		)
 		(uuid "81361898-89b4-4d1c-adf2-4d12e3596db6")
-	)
-	(wire
-		(pts
-			(xy 48.26 40.64) (xy 48.26 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8190921e-7752-4a74-a4df-1e2b6b79b48c")
 	)
 	(wire
 		(pts
@@ -8997,16 +9805,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 43.18) (xy 54.61 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8adc0e5a-21bb-4de3-95fb-19dace21c9eb")
-	)
-	(wire
-		(pts
 			(xy 231.14 49.53) (xy 231.14 50.8)
 		)
 		(stroke
@@ -9047,6 +9845,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 222.25) (xy 269.24 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4b9dfc-db32-4f0a-b71a-56f59be59435")
+	)
+	(wire
+		(pts
 			(xy 25.4 214.63) (xy 27.94 214.63)
 		)
 		(stroke
@@ -9084,16 +9892,6 @@
 			(type default)
 		)
 		(uuid "9136565b-64c4-485a-8fe5-0cb9dedd6403")
-	)
-	(wire
-		(pts
-			(xy 48.26 44.45) (xy 48.26 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91f10106-2ea7-4f88-8cb5-72313d824d44")
 	)
 	(wire
 		(pts
@@ -9197,16 +9995,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 135.89) (xy 97.79 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d9e2f50-e722-4857-8927-eb7d53bcc84f")
-	)
-	(wire
-		(pts
 			(xy 132.08 50.8) (xy 132.08 52.07)
 		)
 		(stroke
@@ -9234,16 +10022,6 @@
 			(type default)
 		)
 		(uuid "9f690c4b-164c-4b84-85e1-7653ef2196ca")
-	)
-	(wire
-		(pts
-			(xy 265.43 229.87) (xy 266.7 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f7c95f2-15fe-42cd-9979-2cebd20dfc62")
 	)
 	(wire
 		(pts
@@ -9327,6 +10105,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 34.29) (xy 40.64 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48a4fed-4da3-4848-913d-04f2b8c61e8b")
+	)
+	(wire
+		(pts
 			(xy 186.69 114.3) (xy 187.96 114.3)
 		)
 		(stroke
@@ -9334,6 +10122,16 @@
 			(type default)
 		)
 		(uuid "a4fde53a-e3c8-4983-9363-fb037cec552d")
+	)
+	(wire
+		(pts
+			(xy 125.73 158.75) (xy 124.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a564f9-db35-447c-be1a-2c160a12614d")
 	)
 	(wire
 		(pts
@@ -9467,16 +10265,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 219.71) (xy 266.7 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af53f125-6578-4ea3-b1cc-f8145a801d43")
-	)
-	(wire
-		(pts
 			(xy 99.06 274.32) (xy 99.06 276.86)
 		)
 		(stroke
@@ -9497,13 +10285,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 189.23) (xy 109.22 195.58)
+			(xy 50.8 34.29) (xy 50.8 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2ccb8e7-73a6-4d5e-8673-456f2f51b803")
+		(uuid "b300d885-3853-4bf5-9836-e2af53a89978")
 	)
 	(wire
 		(pts
@@ -9577,13 +10365,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 33.02) (xy 64.77 34.29)
+			(xy 71.12 33.02) (xy 71.12 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b7eb7b2c-038c-40db-8027-f9d060750317")
+	)
+	(wire
+		(pts
+			(xy 138.43 158.75) (xy 143.51 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f92594-bc29-4ced-ad5e-5072e0a6d14f")
 	)
 	(wire
 		(pts
@@ -9617,16 +10415,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 179.07) (xy 93.98 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9d9f13c-33a2-49c5-8ece-16d95f4edc6e")
-	)
-	(wire
-		(pts
 			(xy 344.17 179.07) (xy 344.17 180.34)
 		)
 		(stroke
@@ -9634,6 +10422,26 @@
 			(type default)
 		)
 		(uuid "bb83ac8f-6318-4f0e-977f-5bb8d8902f2c")
+	)
+	(wire
+		(pts
+			(xy 50.8 44.45) (xy 50.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc3acaf-5b35-416b-a7eb-1cbd039dd9d0")
+	)
+	(wire
+		(pts
+			(xy 71.12 34.29) (xy 80.01 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6340f3-1c57-410f-93f3-b60c0390c03d")
 	)
 	(wire
 		(pts
@@ -9694,16 +10502,6 @@
 			(type default)
 		)
 		(uuid "c0a7c5f4-e317-4de6-b69e-f2ca79e1d580")
-	)
-	(wire
-		(pts
-			(xy 93.98 203.2) (xy 93.98 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0d61572-752c-4c00-a962-bc39cb1d4ff8")
 	)
 	(wire
 		(pts
@@ -9787,13 +10585,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 34.29) (xy 64.77 34.29)
+			(xy 30.48 39.37) (xy 30.48 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c53da409-e82d-4e39-949b-e7dc09d5ddb9")
+		(uuid "c669fe39-0c78-4dbe-a09f-b530cb6fc526")
 	)
 	(wire
 		(pts
@@ -9824,16 +10622,6 @@
 			(type default)
 		)
 		(uuid "c90c7dbf-d614-4046-9ad3-2ebca3cf4159")
-	)
-	(wire
-		(pts
-			(xy 265.43 212.09) (xy 266.7 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9262e18-34ff-4e7c-b981-d2774721346d")
 	)
 	(wire
 		(pts
@@ -9927,6 +10715,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 39.37) (xy 30.48 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00f81fe-57a3-4ccd-92c8-e0baade1bbab")
+	)
+	(wire
+		(pts
 			(xy 74.93 123.19) (xy 74.93 121.92)
 		)
 		(stroke
@@ -9957,6 +10755,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 36.83) (xy 30.48 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21b279c-5366-4047-880b-7f9e79b5b56c")
+	)
+	(wire
+		(pts
 			(xy 58.42 251.46) (xy 58.42 250.19)
 		)
 		(stroke
@@ -9974,16 +10782,6 @@
 			(type default)
 		)
 		(uuid "d56b6bb5-1c59-44d8-8ae2-420c8a5e47d4")
-	)
-	(wire
-		(pts
-			(xy 54.61 34.29) (xy 59.69 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5daedb2-1de1-4e6c-843c-dd810fa11a88")
 	)
 	(wire
 		(pts
@@ -10044,16 +10842,6 @@
 			(type default)
 		)
 		(uuid "d872fa65-a808-4cb8-8c28-266fc0c1507e")
-	)
-	(wire
-		(pts
-			(xy 124.46 203.2) (xy 124.46 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8cffb5c-581c-4f55-8dc3-07f598592f8d")
 	)
 	(wire
 		(pts
@@ -10157,16 +10945,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 234.95) (xy 266.7 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2246f45-88d8-4fc5-9a88-f0a4a6cdb2fd")
-	)
-	(wire
-		(pts
 			(xy 151.13 251.46) (xy 161.29 251.46)
 		)
 		(stroke
@@ -10197,6 +10975,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 219.71) (xy 281.94 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28dc99f-1b76-4d76-8492-af9ae94b74f3")
+	)
+	(wire
+		(pts
 			(xy 257.81 118.11) (xy 259.08 118.11)
 		)
 		(stroke
@@ -10214,6 +11002,16 @@
 			(type default)
 		)
 		(uuid "e3945274-4076-4fc0-9752-5d23c9f5725b")
+	)
+	(wire
+		(pts
+			(xy 295.91 218.44) (xy 295.91 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e445150c-6dd0-4f0f-b909-5f2ce1fd6f53")
 	)
 	(wire
 		(pts
@@ -10304,16 +11102,6 @@
 			(type default)
 		)
 		(uuid "e858ebff-e07d-4108-99e8-9a276d5a2eac")
-	)
-	(wire
-		(pts
-			(xy 123.19 179.07) (xy 124.46 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8b3d396-ec39-42a9-b768-fed750e097f6")
 	)
 	(wire
 		(pts
@@ -10417,6 +11205,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 157.48) (xy 124.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43f3a35-fc02-4cfc-afa4-d032e948091b")
+	)
+	(wire
+		(pts
 			(xy 378.46 31.75) (xy 302.26 31.75)
 		)
 		(stroke
@@ -10437,16 +11235,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 217.17) (xy 266.7 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f575079b-28bf-45cf-a767-7be618ff3646")
-	)
-	(wire
-		(pts
 			(xy 40.64 243.84) (xy 40.64 245.11)
 		)
 		(stroke
@@ -10464,16 +11252,6 @@
 			(type default)
 		)
 		(uuid "f60aedc8-52ab-48ed-af7c-51babeb48186")
-	)
-	(wire
-		(pts
-			(xy 124.46 179.07) (xy 124.46 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f65d5f2d-7e44-4eee-90a5-f3919a95e380")
 	)
 	(wire
 		(pts
@@ -10537,16 +11315,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 48.26 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f98ef849-1a49-471b-94fb-2d74e8e3cf0f")
-	)
-	(wire
-		(pts
 			(xy 30.48 251.46) (xy 30.48 250.19)
 		)
 		(stroke
@@ -10595,16 +11363,6 @@
 		)
 		(uuid "19985f24-36ac-4c8b-8f8e-8b740169a3b3")
 	)
-	(label "LED_R"
-		(at 93.98 189.23 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2e122362-874b-40d2-a710-7896dc5a0160")
-	)
 	(label "AIN2"
 		(at 71.12 153.67 90)
 		(effects
@@ -10614,16 +11372,6 @@
 			(justify left bottom)
 		)
 		(uuid "73b444ef-340c-4ecc-b20a-5c62e239e11e")
-	)
-	(label "LED_G"
-		(at 109.22 189.23 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b0d362a-cbd1-4f04-afcd-13388664bd10")
 	)
 	(label "5V_L1"
 		(at 76.2 227.33 180)
@@ -10664,16 +11412,6 @@
 			(justify left bottom)
 		)
 		(uuid "e26acb7e-2618-4189-b61c-ae5a2f713351")
-	)
-	(label "LED_B"
-		(at 124.46 189.23 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fb76e17a-a67b-48e0-a7ad-80a77e7d7211")
 	)
 	(global_label "GPIO_08"
 		(shape input)
@@ -10725,17 +11463,17 @@
 	)
 	(global_label "GPIO_18"
 		(shape input)
-		(at 265.43 217.17 180)
+		(at 281.94 217.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "03ada0b8-7be1-4dd8-994a-cb11006439dd")
+		(uuid "035050ef-4767-4f34-9769-b985e9627a82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5829 217.17 0)
+			(at 292.7871 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10743,7 +11481,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -10771,6 +11509,78 @@
 			)
 		)
 	)
+	(global_label "GPIO_22"
+		(shape input)
+		(at 281.94 214.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04353e12-858a-4054-b80a-add6f0b1dfcd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.7871 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO_25"
+		(shape input)
+		(at 269.24 209.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09a942b7-8322-41b0-b03a-6f8f1e5c14c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.3929 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO_14_TX"
+		(shape input)
+		(at 269.24 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10a6a929-1a51-4fe0-a556-d44ae0633880")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.2482 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BATTERY_OUT"
 		(shape input)
 		(at 321.31 104.14 180)
@@ -10784,6 +11594,30 @@
 		(uuid "11c677c7-7b31-4dd8-aaee-196eb44c438f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 305.9272 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO_08"
+		(shape input)
+		(at 269.24 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1381a73a-c459-4489-873f-4a44136a4da3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.3929 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10845,7 +11679,7 @@
 	)
 	(global_label "EN_SHORT"
 		(shape input)
-		(at 370.84 208.28 0)
+		(at 370.84 231.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10855,7 +11689,7 @@
 		)
 		(uuid "1bafd125-0e89-44a5-aff1-80a046ae4c3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.3804 208.28 0)
+			(at 383.3804 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10891,19 +11725,19 @@
 			)
 		)
 	)
-	(global_label "LED_G_PIN"
+	(global_label "GPIO_11"
 		(shape input)
-		(at 327.66 223.52 180)
+		(at 281.94 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "2493c918-9da0-4253-b85f-a35668580a86")
+		(uuid "23721cdb-8443-44f5-b9e2-970863441124")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.8172 223.52 0)
+			(at 292.7871 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10911,7 +11745,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -10939,7 +11773,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_14"
+	(global_label "GPIO_14_TX"
 		(shape input)
 		(at 327.66 190.5 180)
 		(fields_autoplaced yes)
@@ -10951,7 +11785,7 @@
 		)
 		(uuid "28a34c1b-8f27-4cb1-95b8-2bec302cb452")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.8129 190.5 0)
+			(at 313.6682 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11011,54 +11845,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_13"
-		(shape input)
-		(at 265.43 234.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2eb2b989-5989-4f51-9c85-b61142dd9eb9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5829 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO_15"
-		(shape input)
-		(at 327.66 193.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34a8a558-a3a6-412c-a581-2c172c984c8e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.8129 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "EN_SHORT"
 		(shape input)
 		(at 309.88 110.49 180)
@@ -11085,17 +11871,17 @@
 	)
 	(global_label "LED_G_PIN"
 		(shape input)
-		(at 107.95 179.07 180)
+		(at 157.48 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3eca4355-a410-404c-96ab-00fbe6210a85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.1072 179.07 0)
+			(at 170.3228 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11103,7 +11889,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -11203,30 +11989,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_22"
-		(shape input)
-		(at 265.43 219.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "535392ac-2d2c-43c9-bb71-431cd6555640")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5829 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 238.76 50.8 270)
@@ -11299,9 +12061,9 @@
 			)
 		)
 	)
-	(global_label "GPIO_6"
+	(global_label "BAT_SENSE"
 		(shape input)
-		(at 370.84 210.82 0)
+		(at 187.96 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11309,57 +12071,9 @@
 			)
 			(justify left)
 		)
-		(uuid "60f5b48c-6658-4d00-b0ee-d940f40bbe97")
+		(uuid "650a1a9b-78c5-45a9-b71d-07f71070dfe1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.4776 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ADC_READY"
-		(shape input)
-		(at 327.66 231.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "636e4a92-12b3-4690-84aa-e78063ddcfcc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.2124 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO_12"
-		(shape input)
-		(at 370.84 231.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "63d16756-fd0b-4db7-aca9-aedc2e2e0697")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.6871 231.14 0)
+			(at 201.2865 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11395,30 +12109,6 @@
 			)
 		)
 	)
-	(global_label "LED_B_PIN"
-		(shape input)
-		(at 327.66 220.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "692186d2-35a4-4945-a7c7-1059a1401422")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.8172 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "BATTERY_SENSE_TX"
 		(shape input)
 		(at 267.97 111.76 0)
@@ -11440,6 +12130,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO_27"
+		(shape input)
+		(at 327.66 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d216182-4190-401e-99a1-94e51dae5f1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.8129 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -11467,9 +12181,57 @@
 			)
 		)
 	)
+	(global_label "GPIO_09"
+		(shape input)
+		(at 281.94 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73dc5710-62aa-465a-b411-1d8063fa178a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.7871 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "LED_B_PIN"
 		(shape input)
-		(at 123.19 179.07 180)
+		(at 157.48 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bc6ceea-c680-4541-98f4-99bc922fcb87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.3228 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO_27"
+		(shape input)
+		(at 269.24 217.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11477,9 +12239,9 @@
 			)
 			(justify right)
 		)
-		(uuid "7bc6ceea-c680-4541-98f4-99bc922fcb87")
+		(uuid "80ae9f0b-b17c-4bcb-91df-df46ca33f18b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.3472 179.07 0)
+			(at 258.3929 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11565,55 +12327,7 @@
 	)
 	(global_label "LED_R_PIN"
 		(shape input)
-		(at 92.71 179.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8a47655d-c411-40c7-896d-ed9d5169f971")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.8672 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO_14"
-		(shape input)
-		(at 265.43 212.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d145479-94e1-4d97-8f33-301534e2171c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5829 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "BATTERY_SENSE"
-		(shape input)
-		(at 187.96 114.3 0)
+		(at 157.48 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11621,9 +12335,9 @@
 			)
 			(justify left)
 		)
-		(uuid "91018b2a-70fa-4145-8388-5d718bc7f843")
+		(uuid "8a47655d-c411-40c7-896d-ed9d5169f971")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.7617 114.3 0)
+			(at 170.3228 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11683,30 +12397,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_09"
-		(shape input)
-		(at 265.43 224.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9ae313e9-5244-4663-b32f-15a07809c94d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5829 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "BAT_SENSE_DIV_OUT"
 		(shape input)
 		(at 58.42 138.43 180)
@@ -11731,7 +12421,31 @@
 			)
 		)
 	)
-	(global_label "BATTERY_SENSE_DIGITAL_OUT"
+	(global_label "GPIO_23"
+		(shape input)
+		(at 269.24 214.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c5a210c-060f-4435-a92d-52ffebdf708c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.3929 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LED_B_PIN"
 		(shape input)
 		(at 370.84 215.9 0)
 		(fields_autoplaced yes)
@@ -11741,9 +12455,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a392775d-2e43-4dfc-9fb3-046dd7ed04a8")
+		(uuid "a8857e24-5fe3-47dd-adf2-b0029d431a20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 401.0394 215.9 0)
+			(at 383.6828 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11752,6 +12466,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO_23"
+		(shape input)
+		(at 327.66 220.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aecf17bc-08a4-48ac-ab1c-9b431bf09986")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.8129 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -11827,6 +12565,30 @@
 			)
 		)
 	)
+	(global_label "GPIO_10"
+		(shape input)
+		(at 269.24 212.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1b15881-0afa-4e87-a36b-4fad8f00f70b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.3929 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GPIO_22"
 		(shape input)
 		(at 327.66 218.44 180)
@@ -11872,6 +12634,78 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO_24"
+		(shape input)
+		(at 327.66 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6b4ecf4-4777-4ef3-8649-243239ded5e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.8129 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BATTERY_SENSE_TX"
+		(shape input)
+		(at 327.66 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce56e71e-9911-4db3-a19d-ba4003d6113d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.7136 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LED_G_PIN"
+		(shape input)
+		(at 370.84 208.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfb13cde-4d94-4046-87c1-961358d272f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.6828 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -11923,30 +12757,6 @@
 			)
 		)
 	)
-	(global_label "LED_R_PIN"
-		(shape input)
-		(at 327.66 226.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dcf6acc0-a3b7-4a62-b5da-616fe3dc28eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.8172 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "BATTERY_OUT"
 		(shape input)
 		(at 190.5 119.38 0)
@@ -11984,30 +12794,6 @@
 		(uuid "e04e7678-b22c-44f0-801e-97feb40aa5de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.9072 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO_15"
-		(shape input)
-		(at 265.43 214.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e46031de-22c6-41ee-abd2-dfbf0d811139")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5829 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12091,33 +12877,9 @@
 			)
 		)
 	)
-	(global_label "GPIO_10"
+	(global_label "LED_R_PIN"
 		(shape input)
-		(at 265.43 222.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed7ae69d-c24a-4d53-9176-503260f9d47a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5829 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ADC_READY"
-		(shape input)
-		(at 97.79 135.89 0)
+		(at 370.84 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12125,9 +12887,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f0ca0b10-ea6d-454b-9e4e-cb3a4326e9df")
+		(uuid "ed1dc06d-7fcc-40ee-951a-52ecb456524a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.2376 135.89 0)
+			(at 383.6828 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12139,19 +12901,19 @@
 			)
 		)
 	)
-	(global_label "GPIO_11"
+	(global_label "GPIO_24"
 		(shape input)
-		(at 265.43 227.33 180)
+		(at 281.94 212.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f1436d02-14e8-4ff2-9b15-0ff8d15a71f1")
+		(uuid "f17bc7cf-4671-4510-8601-9b3a94928683")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5829 227.33 0)
+			(at 292.7871 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12159,7 +12921,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -12211,30 +12973,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_12"
-		(shape input)
-		(at 265.43 232.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f4da09eb-df9e-4d1a-aa1e-0d2714ffa9e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5829 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "BAT_SENSE_DIV_OUT"
 		(shape input)
 		(at 231.14 118.11 180)
@@ -12248,6 +12986,30 @@
 		(uuid "f7817b51-a8a4-4cf6-a30e-60ca142904cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 209.2863 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO_25"
+		(shape input)
+		(at 327.66 226.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7b4f56d-8013-4ac0-9380-3409087f0101")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.8129 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12283,30 +13045,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_08"
-		(shape input)
-		(at 265.43 229.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff8e1923-e0b7-42cb-b93c-a785f35df1ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.5829 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Sensor_Energy:INA219AxDCN")
 		(at 233.68 39.37 270)
@@ -12318,7 +13056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02f00919-d36b-4a95-8f30-d95c073a53ee")
-		(property "Reference" "U405"
+		(property "Reference" "U6"
 			(at 226.822 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12442,7 +13180,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "U405")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12461,7 +13199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0604f21d-971a-41ce-b91a-c73f218253a9")
-		(property "Reference" "#PWR0423"
+		(property "Reference" "#PWR026"
 			(at 149.86 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12522,111 +13260,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0423")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 109.22 199.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0745f4c1-1ebb-4bad-83fa-0311f69dbeef")
-		(property "Reference" "D403"
-			(at 113.03 199.7074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_G"
-			(at 113.03 202.2474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_FlatTop"
-			(at 109.22 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 109.22 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "732-5017-ND"
-			(at 109.22 199.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "491dec40-54dd-410e-b9c8-c3c101c9a3cf")
-		)
-		(pin "1"
-			(uuid "5d16b126-6094-4abe-ab24-ab83dca89790")
-		)
-		(instances
-			(project "solar-battery-tester"
-				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "D403")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12644,7 +13278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0893a370-9f5d-446e-93f6-0163261fd028")
-		(property "Reference" "J404"
+		(property "Reference" "J3"
 			(at 181.61 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12742,7 +13376,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "J404")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12760,7 +13394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0917a9ef-c42c-4f82-bb24-ed912c7aac19")
-		(property "Reference" "R438"
+		(property "Reference" "R16"
 			(at 166.37 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12771,7 +13405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10M"
+		(property "Value" "1M"
 			(at 166.37 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12782,7 +13416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 162.052 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -12815,6 +13449,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C511360"
+			(at 163.83 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d4c04f1c-1526-43c5-b1e9-36a39d821176")
 		)
@@ -12824,7 +13469,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R438")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -12842,7 +13487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a480b85-3f9f-4195-8734-822ad32c797c")
-		(property "Reference" "Q403"
+		(property "Reference" "Q5"
 			(at 326.39 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12953,7 +13598,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "Q403")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -12971,7 +13616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bd8ab63-f6ab-4952-9cb2-b8dd341dd227")
-		(property "Reference" "C406"
+		(property "Reference" "C6"
 			(at 106.68 91.4462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13079,7 +13724,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C406")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13097,7 +13742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ed1e55c-62a5-4f11-81ed-3b3dcb9748b3")
-		(property "Reference" "R420"
+		(property "Reference" "R17"
 			(at 233.68 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13209,7 +13854,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R420")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -13228,7 +13873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11d690e7-eda1-4d47-a6d2-e6d9aff75d3a")
-		(property "Reference" "#PWR0425"
+		(property "Reference" "#PWR027"
 			(at 156.21 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13289,7 +13934,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0425")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13306,7 +13951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "123c28a8-dbc0-46ca-8cae-85c8a6f182c7")
-		(property "Reference" "R403"
+		(property "Reference" "R1"
 			(at 31.75 201.676 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13412,7 +14057,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R403")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13420,7 +14065,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 54.61 0)
+		(at 283.21 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13429,9 +14074,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "190dfa13-0b1f-461e-902e-dc3cb8eafe8a")
-		(property "Reference" "#PWR0433"
-			(at 48.26 60.96 0)
+		(uuid "15847001-92aa-45c1-b31a-393623ec9321")
+		(property "Reference" "#PWR059"
+			(at 283.21 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13442,7 +14087,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 59.69 0)
+			(at 283.21 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13453,7 +14098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 54.61 0)
+			(at 283.21 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13464,7 +14109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 54.61 0)
+			(at 283.21 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13475,7 +14120,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 54.61 0)
+			(at 283.21 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13486,12 +14131,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8d3d89a-3abf-4752-9fd3-eedad0bf2da6")
+			(uuid "74d89b8e-ad62-436a-8be2-331c6cb325f6")
 		)
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0433")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -13509,7 +14154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a2acc34-af68-404e-9436-1733bd55065d")
-		(property "Reference" "#PWR0414"
+		(property "Reference" "#PWR013"
 			(at 99.06 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -13576,230 +14221,13 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0414")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 			(project "tc2-plugs-buck-boost-pcb"
 				(path "/f421ea14-42dc-4485-8e12-78680a358584"
 					(reference "#PWR0231")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 93.98 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c5f15a5-ffb8-4321-a1f3-c23906a6a35d")
-		(property "Reference" "R413"
-			(at 96.52 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470Ω"
-			(at 96.52 186.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 92.202 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 93.98 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "MFR-25FBF52-470R-ND"
-			(at 93.98 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C23179"
-			(at 93.98 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a25d29d-5b70-4633-bd70-c528701bc2e3")
-		)
-		(pin "2"
-			(uuid "92205bc3-909b-4540-944d-2e52477441e1")
-		)
-		(instances
-			(project "solar-battery-tester"
-				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R413")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 21.59 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cf15abd-ee4a-4031-bf67-b004fd9a1232")
-		(property "Reference" "J401"
-			(at 21.59 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 21.59 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
-			(at 21.59 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 21.59 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 21.59 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 21.59 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 21.59 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b9c4abdb-500a-4a52-9306-6a6bbb0043da")
-		)
-		(pin "1"
-			(uuid "92b39125-0997-4bc8-b778-eb55d6559a74")
-		)
-		(instances
-			(project "solar-battery-tester"
-				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -13817,7 +14245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d7bc42d-8f4f-4e7c-b658-007e7349b6ab")
-		(property "Reference" "H402"
+		(property "Reference" "H2"
 			(at 243.84 252.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13875,7 +14303,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "H402")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13893,7 +14321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e15bb61-2551-421c-bb5e-cf2a033b1585")
-		(property "Reference" "#PWR0453"
+		(property "Reference" "#PWR050"
 			(at 378.46 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13953,7 +14381,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0453")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -13971,7 +14399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eeea4e4-ce46-461c-8f3a-0ff31652f44c")
-		(property "Reference" "#PWR0434"
+		(property "Reference" "#PWR033"
 			(at 203.2 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -14031,7 +14459,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0434")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14049,7 +14477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20c39d6f-3fb4-4bc1-958d-008ab7ff95a4")
-		(property "Reference" "#PWR0424"
+		(property "Reference" "#PWR021"
 			(at 128.27 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -14116,7 +14544,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0424")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -14140,7 +14568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20e0eb44-8c3c-470e-ae60-342a925242ec")
-		(property "Reference" "#PWR0456"
+		(property "Reference" "#PWR043"
 			(at 259.08 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -14201,7 +14629,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0456")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14219,7 +14647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21a68b27-867a-41e1-9b35-3d83cdab2880")
-		(property "Reference" "#PWR0426"
+		(property "Reference" "#PWR024"
 			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -14279,7 +14707,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0426")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14297,7 +14725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23141fb4-f1ca-4be2-a554-1ecef45d85b4")
-		(property "Reference" "C409"
+		(property "Reference" "C9"
 			(at 134.62 91.4462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14405,7 +14833,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C409")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14423,7 +14851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23252781-72e2-4f32-b43e-488d6429e021")
-		(property "Reference" "R418"
+		(property "Reference" "R15"
 			(at 166.37 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14434,7 +14862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33M"
+		(property "Value" "3.3M"
 			(at 166.37 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14445,7 +14873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 162.052 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -14478,6 +14906,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C4168316"
+			(at 163.83 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "755df47b-281f-4420-b768-d36c88519cd2")
 		)
@@ -14487,7 +14926,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R418")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14505,7 +14944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24bfe5c7-f0e2-4514-85dd-69014b4a4f87")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR010"
 			(at 74.93 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -14565,7 +15004,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0407")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14583,7 +15022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26b07276-86de-4ecc-af8e-f223beb803aa")
-		(property "Reference" "#PWR0458"
+		(property "Reference" "#PWR034"
 			(at 204.47 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -14644,7 +15083,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0458")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14662,7 +15101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26e1dee1-0af8-40a6-ade7-798c7edeb521")
-		(property "Reference" "Q402"
+		(property "Reference" "Q2"
 			(at 100.838 27.178 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14779,7 +15218,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "Q402")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -14797,7 +15236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27ee6e86-22e8-447b-b032-761f80698d8f")
-		(property "Reference" "#PWR0416"
+		(property "Reference" "#PWR016"
 			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14857,7 +15296,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0416")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14875,7 +15314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2881e6ab-4ffc-49a8-9189-d83f35eb7a2c")
-		(property "Reference" "H404"
+		(property "Reference" "H4"
 			(at 243.84 262.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14933,7 +15372,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "H404")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -14951,7 +15390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a71cc5f-9b9a-4c4e-a55d-f26cc2d7443f")
-		(property "Reference" "FB401"
+		(property "Reference" "FB1"
 			(at 184.0992 236.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15047,7 +15486,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "FB401")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -15077,7 +15516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cba3ec1-6a01-41cf-9556-f419af1e6ac3")
-		(property "Reference" "#PWR0439"
+		(property "Reference" "#PWR037"
 			(at 231.14 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15138,7 +15577,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0439")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -15155,7 +15594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31002ded-76b1-4889-8937-9d253a76d297")
-		(property "Reference" "Q412"
+		(property "Reference" "Q4"
 			(at 268.732 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15266,7 +15705,110 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "Q412")
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32656e07-63a4-4edc-a3e3-f02fc1f9525c")
+		(property "Reference" "R13"
+			(at 143.764 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 155.448 157.226 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 147.32 160.528 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "MFR-25FBF52-470R-ND"
+			(at 147.32 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23179"
+			(at 147.32 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03b31e34-908a-4092-8162-9b6450f05061")
+		)
+		(pin "2"
+			(uuid "a10d88d8-e0b6-4248-bca7-23d55b7b9c1c")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15284,7 +15826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32896227-142b-4ca0-9d3c-fc4428922ab2")
-		(property "Reference" "#PWR0432"
+		(property "Reference" "#PWR030"
 			(at 172.72 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -15351,7 +15893,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0432")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15375,7 +15917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c0d800-9445-4035-8f62-312120483a81")
-		(property "Reference" "#PWR0445"
+		(property "Reference" "#PWR047"
 			(at 349.25 254 0)
 			(hide yes)
 			(show_name no)
@@ -15436,7 +15978,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0445")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -15454,7 +15996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34df20bb-bb01-4e6f-b4c5-ef90a52c3381")
-		(property "Reference" "#PWR0452"
+		(property "Reference" "#PWR051"
 			(at 378.46 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -15515,7 +16057,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0452")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -15533,7 +16075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36929f19-4806-4c43-85ef-f5516897cd06")
-		(property "Reference" "U402"
+		(property "Reference" "U1"
 			(at 83.82 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15656,7 +16198,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "U402")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -15680,7 +16222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37996b43-1940-466b-a47a-bf23afaabe93")
-		(property "Reference" "#PWR0410"
+		(property "Reference" "#PWR012"
 			(at 86.36 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -15740,7 +16282,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0410")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15757,7 +16299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3856ac5c-d3fd-46f9-aa27-6fa8f1aea080")
-		(property "Reference" "C405"
+		(property "Reference" "C4"
 			(at 60.96 270.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15849,7 +16391,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C405")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -15873,7 +16415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "393e863d-c476-4819-a42e-8d0714be4a25")
-		(property "Reference" "J403"
+		(property "Reference" "J2"
 			(at 181.61 36.8301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15970,7 +16512,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "J403")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -15988,7 +16530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39455524-ed9e-457a-837c-e00cd90b830c")
-		(property "Reference" "R407"
+		(property "Reference" "R5"
 			(at 95.25 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16096,7 +16638,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R407")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -16114,7 +16656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a63e9d8-5115-4124-95db-0bd167a1dd1a")
-		(property "Reference" "J407"
+		(property "Reference" "J5"
 			(at 351.3933 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16336,7 +16878,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "J407")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -16354,7 +16896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c12b935-a108-4b08-84bf-ef15fd6a9de7")
-		(property "Reference" "D401"
+		(property "Reference" "D2"
 			(at 82.55 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16462,7 +17004,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "D401")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -16480,7 +17022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d36a94d-eab4-4e40-a80b-23e04d0c920c")
-		(property "Reference" "R408"
+		(property "Reference" "R6"
 			(at 105.41 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16588,7 +17130,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R408")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16606,7 +17148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e0bf4c7-18f2-41cc-85ba-43bfd20a64b5")
-		(property "Reference" "U403"
+		(property "Reference" "U3"
 			(at 118.11 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16716,7 +17258,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "U403")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -16734,7 +17276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb37617-19cb-48fc-bd3e-fb1e4dedac2e")
-		(property "Reference" "C412"
+		(property "Reference" "C12"
 			(at 163.83 246.3863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16826,7 +17368,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C412")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -16850,7 +17392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fd52a65-23da-40e9-b8fc-081c896a5575")
-		(property "Reference" "R419"
+		(property "Reference" "R24"
 			(at 379.73 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16958,7 +17500,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R419")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -16976,7 +17518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "400ff0fd-0759-4f7b-80fe-8adb42d11858")
-		(property "Reference" "#PWR0415"
+		(property "Reference" "#PWR014"
 			(at 99.06 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -17043,7 +17585,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0415")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -17067,7 +17609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "421f8b11-2385-4ead-9c52-f83d00b1c228")
-		(property "Reference" "U406"
+		(property "Reference" "U5"
 			(at 220.98 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17180,111 +17722,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "U406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 124.46 199.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43d129e6-6c14-429a-afe9-cd9f01584ce7")
-		(property "Reference" "D404"
-			(at 128.27 199.7074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_B"
-			(at 128.27 202.2474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_FlatTop"
-			(at 124.46 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 124.46 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 124.46 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "732-5015-ND"
-			(at 124.46 199.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0fa617e8-2115-4ddf-ac44-ff353c91b817")
-		)
-		(pin "1"
-			(uuid "b26dccc3-d043-42cf-a5b9-5e430559b0d4")
-		)
-		(instances
-			(project "solar-battery-tester"
-				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "D404")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -17302,7 +17740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44eeae71-2115-4f4d-872c-9af8ea2a2c61")
-		(property "Reference" "#FLG0403"
+		(property "Reference" "#FLG03"
 			(at 294.64 241.935 0)
 			(hide yes)
 			(show_name no)
@@ -17362,7 +17800,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#FLG0403")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -17381,7 +17819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49367fd8-e8d8-4da1-bd76-54737341f080")
-		(property "Reference" "R412"
+		(property "Reference" "R11"
 			(at 144.78 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17493,7 +17931,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R412")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -17510,7 +17948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a9f58bf-8eb3-4d30-9ea6-ecab8204c8f1")
-		(property "Reference" "R410"
+		(property "Reference" "R8"
 			(at 107.188 245.618 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17594,7 +18032,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R410")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -17607,8 +18045,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 64.77 33.02 0)
+		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
+		(at 274.32 214.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17617,10 +18055,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "526bbb80-7ca8-4ecc-a79b-d6a395450379")
-		(property "Reference" "#FLG0401"
-			(at 64.77 31.115 0)
-			(hide yes)
+		(uuid "4fb8863e-65df-4207-8874-4f077c8bffe5")
+		(property "Reference" "J8"
+			(at 275.59 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17629,8 +18066,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 64.77 27.94 0)
+		(property "Value" "Conn_02x07_Odd_Even"
+			(at 275.59 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17639,8 +18076,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 64.77 33.02 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
+			(at 274.32 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17651,7 +18088,202 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 33.02 0)
+			(at 274.32 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 274.32 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "553542e7-68d9-48f4-8715-4cfa22d05b35")
+		)
+		(pin "1"
+			(uuid "4a6cd609-321d-4793-962b-7ff949294da7")
+		)
+		(pin "9"
+			(uuid "0c480944-14cd-47b9-938f-b501b31722d6")
+		)
+		(pin "4"
+			(uuid "e377fbd6-b2da-4173-99ba-5b9a19696e3a")
+		)
+		(pin "6"
+			(uuid "279cfd22-8ae2-480c-ab4d-43df3ffede10")
+		)
+		(pin "10"
+			(uuid "ddeba380-ed48-4d33-966f-eb3604f4b6cd")
+		)
+		(pin "8"
+			(uuid "7e27be3c-af9b-430d-849b-1ae77480d0d2")
+		)
+		(pin "13"
+			(uuid "ce702a74-76d9-4cca-8d5f-574fe5cb5310")
+		)
+		(pin "12"
+			(uuid "f960f9e7-6fc6-4ef3-987d-d7e83277cb74")
+		)
+		(pin "14"
+			(uuid "fbc7ddb6-57ef-4237-bc97-0df3440eb078")
+		)
+		(pin "11"
+			(uuid "4b360864-7aec-4864-9e6f-32323d0059a4")
+		)
+		(pin "3"
+			(uuid "953bdf1f-033f-4a09-a63d-bc8663b72294")
+		)
+		(pin "5"
+			(uuid "f3a145eb-ad97-4e64-b14c-be79e06cf0ba")
+		)
+		(pin "2"
+			(uuid "7f053082-c908-48af-804d-47e8745ddc76")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 295.91 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5226451d-627a-4ec9-b89a-7d6723f841fb")
+		(property "Reference" "#PWR060"
+			(at 295.91 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 295.91 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 295.91 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fff4923b-fa95-42a4-aab0-c9d92a1b5258")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 71.12 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "526bbb80-7ca8-4ecc-a79b-d6a395450379")
+		(property "Reference" "#FLG01"
+			(at 71.12 31.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 71.12 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17662,7 +18294,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 64.77 33.02 0)
+			(at 71.12 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17678,7 +18310,86 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#FLG0401")
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "593c3500-df8e-49d1-a8b3-9d415045bf24")
+		(property "Reference" "#PWR058"
+			(at 267.97 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51990283-6ee8-4954-a5e9-926264cdcced")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -17696,7 +18407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b34ac63-56b7-4373-81f3-2c1a7bc1336f")
-		(property "Reference" "C410"
+		(property "Reference" "C10"
 			(at 143.51 246.3863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17788,7 +18499,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C410")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -17801,87 +18512,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 93.98 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f721058-b509-4457-b4bd-e0a9095c714f")
-		(property "Reference" "#PWR0422"
-			(at 93.98 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a3c32b44-f76b-4353-bb5f-5d3babc09bf7")
-		)
-		(instances
-			(project "solar-battery-tester"
-				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0422")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
-		(at 34.29 34.29 90)
+		(at 44.45 34.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17891,8 +18523,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60265419-3f4d-4fc1-959d-5f018582ca54")
-		(property "Reference" "F401"
-			(at 34.29 27.94 90)
+		(property "Reference" "F1"
+			(at 44.45 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17902,7 +18534,7 @@
 			)
 		)
 		(property "Value" "4A"
-			(at 34.29 30.48 90)
+			(at 44.45 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17912,7 +18544,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 34.29 36.068 90)
+			(at 44.45 36.068 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17923,7 +18555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 34.29 0)
+			(at 44.45 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17934,7 +18566,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 34.29 34.29 0)
+			(at 44.45 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17945,7 +18577,7 @@
 			)
 		)
 		(property "LCSC Part" "C136349"
-			(at 34.29 34.29 90)
+			(at 44.45 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17964,7 +18596,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "F401")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -17981,7 +18613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61eb5095-7e42-4866-aacd-446e57c13224")
-		(property "Reference" "R435"
+		(property "Reference" "R23"
 			(at 364.998 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18089,7 +18721,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R435")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -18106,7 +18738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63178f87-26f8-4e87-9af6-5c8bf440aa48")
-		(property "Reference" "R409"
+		(property "Reference" "R7"
 			(at 113.03 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18192,7 +18824,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R409")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18216,7 +18848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66a15d61-14f2-431b-a0c7-93aa458136c6")
-		(property "Reference" "#PWR0429"
+		(property "Reference" "#PWR029"
 			(at 172.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18276,7 +18908,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0429")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -18294,7 +18926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66ebbdbe-1fc7-48bf-93bb-493741bd66a9")
-		(property "Reference" "Q401"
+		(property "Reference" "Q1"
 			(at 106.68 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18405,7 +19037,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "Q401")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -18422,7 +19054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6abe084a-9269-4c8c-82d0-ceb6d9536eb1")
-		(property "Reference" "D406"
+		(property "Reference" "D4"
 			(at 366.268 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18519,86 +19151,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "D406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6aec9476-e5fe-4385-864b-1c0d57d5f376")
-		(property "Reference" "#PWR0430"
-			(at 124.46 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2bac66a0-9dcd-411c-8bbc-965077fa4f54")
-		)
-		(instances
-			(project "solar-battery-tester"
-				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0430")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -18616,7 +19169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bf07729-20f4-4663-b857-f6eed30cf741")
-		(property "Reference" "#PWR0436"
+		(property "Reference" "#PWR036"
 			(at 229.87 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18677,7 +19230,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0436")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -18695,7 +19248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dedd3da-babf-4258-ae9b-1912f91cf268")
-		(property "Reference" "R405"
+		(property "Reference" "R3"
 			(at 87.63 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18801,7 +19354,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R405")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -18818,7 +19371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f3ba82d-76e4-4821-b14f-622cac12d162")
-		(property "Reference" "R404"
+		(property "Reference" "R2"
 			(at 31.75 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18924,7 +19477,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R404")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -18941,7 +19494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7229c3d3-d5a8-4fff-80c8-f6b81660a06f")
-		(property "Reference" "C401"
+		(property "Reference" "C1"
 			(at 33.02 246.3863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19033,119 +19586,13 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C401")
+					(reference "C1")
 					(unit 1)
 				)
 			)
 			(project "tc2-plugs-buck-boost-pcb"
 				(path "/f421ea14-42dc-4485-8e12-78680a358584"
 					(reference "C219")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
-		(at 271.78 222.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74089abb-d1ae-40fd-82b3-c5bad42ebddb")
-		(property "Reference" "J406"
-			(at 274.32 222.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x10"
-			(at 274.32 224.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
-			(at 271.78 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 271.78 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "8e64860f-26bb-4360-b4d1-eb0a502b40ab")
-		)
-		(pin "8"
-			(uuid "068bc1ff-0d49-4502-b480-9e27cc0ff847")
-		)
-		(pin "1"
-			(uuid "bcf60a46-d08c-4676-bed5-0a05001e61c0")
-		)
-		(pin "2"
-			(uuid "41143e5c-ba7d-49d6-899e-f124e9a89177")
-		)
-		(pin "3"
-			(uuid "78a3b899-a427-468e-8be1-b06a8d7acad0")
-		)
-		(pin "4"
-			(uuid "7eccf329-a62b-488f-96b3-1b3fdd7cf9e8")
-		)
-		(pin "5"
-			(uuid "f7ce932b-3753-4965-9343-b46369393999")
-		)
-		(pin "6"
-			(uuid "2920ea8a-b55d-405f-9c36-1a5a4590ba82")
-		)
-		(pin "7"
-			(uuid "d510a45f-5228-4968-ae8e-c714ef833ae1")
-		)
-		(pin "9"
-			(uuid "15bbd3ca-b3b9-4bfb-986c-13bebda5c639")
-		)
-		(instances
-			(project "solar-battery-tester"
-				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "J406")
 					(unit 1)
 				)
 			)
@@ -19163,7 +19610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "740be6f5-ebe7-4863-8d1d-f9a9b1f3c459")
-		(property "Reference" "#PWR0441"
+		(property "Reference" "#PWR041"
 			(at 246.38 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -19224,7 +19671,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0441")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -19242,7 +19689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75cb3197-c29b-465c-bbdd-c7f87e9cc635")
-		(property "Reference" "C415"
+		(property "Reference" "C15"
 			(at 245.11 177.8062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19350,7 +19797,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C415")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -19368,7 +19815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75f0942c-b0f3-4808-a569-97a78e437600")
-		(property "Reference" "#PWR0438"
+		(property "Reference" "#PWR049"
 			(at 377.19 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19429,15 +19876,15 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0438")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "cacophony-library:DMP4013LFGQ-13")
-		(at 48.26 36.83 90)
+		(lib_id "cacophony-library:PJ-002A")
+		(at 22.86 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19445,31 +19892,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "765a32d3-aa4a-45e6-909d-255999794f69")
-		(property "Reference" "Q413"
-			(at 50.292 27.178 90)
+		(fields_autoplaced yes)
+		(uuid "78607c6c-1a57-4e50-a3ae-e17f2088d82a")
+		(property "Reference" "DC1"
+			(at 19.81 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "DMP4013LFGQ-13"
-			(at 57.404 29.972 90)
+		(property "Value" "PJ-002A"
+			(at 19.81 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
-			(at 45.72 31.75 0)
+		(property "Footprint" "cacophony-library:DC-IN-TH_PJ-002A"
+			(at 22.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19479,8 +19925,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8560105830776938496"
-			(at 60.96 36.83 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3096082.pdf"
+			(at 22.86 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19490,8 +19936,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 48.26 36.83 0)
+		(property "Description" ""
+			(at 22.86 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19501,8 +19947,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C7264680"
-			(at 48.26 36.83 0)
+		(property "Manufacturer" "CUI"
+			(at 22.86 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19512,8 +19958,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 48.26 36.83 90)
+		(property "MPN" "PJ-002A"
+			(at 22.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19523,8 +19969,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 48.26 36.83 90)
+		(property "LCSC Part" "C3096082"
+			(at 22.86 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19533,37 +19979,20 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Type" ""
-			(at 48.26 36.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7df77569-9101-48ea-afa2-7a2be81ac435")
-		)
-		(pin "5"
-			(uuid "2d8d5108-5a35-495e-a271-e31c03e729c2")
 		)
 		(pin "3"
-			(uuid "ef57e0b8-f706-4ccb-8d43-85c1b980f817")
+			(uuid "ace17b09-b805-41aa-9306-8b79aab54606")
 		)
-		(pin "4"
-			(uuid "2c4a20cc-319b-4cd4-a3a7-ff9a62631941")
+		(pin "2"
+			(uuid "0c8a0040-f4e0-4d3b-80a6-609bce9d82df")
 		)
 		(pin "1"
-			(uuid "9a582ef6-a7f5-4f94-bcd6-67d5691a968e")
+			(uuid "bb74aadb-a351-4e1b-bd80-1db468d58d40")
 		)
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "Q413")
+					(reference "DC1")
 					(unit 1)
 				)
 			)
@@ -19581,7 +20010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d2c9bd4-92f5-4e52-9664-ed17d2521193")
-		(property "Reference" "#PWR0411"
+		(property "Reference" "#PWR08"
 			(at 67.31 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -19648,7 +20077,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0411")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -19672,7 +20101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f85ae2f-f309-4f78-ba62-30369b709313")
-		(property "Reference" "#PWR0412"
+		(property "Reference" "#PWR09"
 			(at 68.58 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -19739,7 +20168,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0412")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -19763,7 +20192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fad189b-caae-4480-a1f7-b399729297db")
-		(property "Reference" "C403"
+		(property "Reference" "C5"
 			(at 77.47 124.4662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19871,14 +20300,14 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C403")
+					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x10_MountingPin")
 		(at 383.54 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -19889,8 +20318,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "824fe99c-29f1-4d9c-be96-7459bdf13ddf")
-		(property "Reference" "J410"
-			(at 386.08 34.2899 0)
+		(property "Reference" "J6"
+			(at 386.08 34.6455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19901,7 +20330,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 386.08 36.8299 0)
+			(at 386.08 37.1855 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19933,7 +20362,18 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 383.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C264997"
 			(at 383.54 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -19974,10 +20414,13 @@
 		(pin "9"
 			(uuid "c19c16d3-25b4-459f-b911-95d536c4199e")
 		)
+		(pin "MP"
+			(uuid "6c8f664d-73e5-4897-be2c-51362c4c4c55")
+		)
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "J410")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -19995,7 +20438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8250ed8b-8ebc-4de4-ba84-f72b0cc9938a")
-		(property "Reference" "C411"
+		(property "Reference" "C11"
 			(at 153.67 246.3863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20087,7 +20530,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C411")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -20110,7 +20553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82abd62e-2935-40ed-bd99-a09c59d381f6")
-		(property "Reference" "R437"
+		(property "Reference" "R19"
 			(at 242.062 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20218,7 +20661,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R437")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -20235,7 +20678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "867d8be7-3f69-4159-ac92-0a019a2a187a")
-		(property "Reference" "U401"
+		(property "Reference" "U2"
 			(at 90.17 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20367,7 +20810,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "U401")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -20385,7 +20828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "882a3479-caea-472a-97ed-66d056adc911")
-		(property "Reference" "#FLG0402"
+		(property "Reference" "#FLG02"
 			(at 195.58 240.665 0)
 			(hide yes)
 			(show_name no)
@@ -20445,133 +20888,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#FLG0402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 48.26 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a1fd21f-cedc-49e2-bab9-f51c24965d2a")
-		(property "Reference" "R417"
-			(at 50.8 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 50.8 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 46.482 49.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 48.26 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25741"
-			(at 48.26 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 48.26 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 48.26 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 48.26 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3aaa8251-649a-4e0e-8a37-a35dcaf3d3a3")
-		)
-		(pin "2"
-			(uuid "36dd0449-f36c-40d2-a113-3fe4d8fba359")
-		)
-		(instances
-			(project "solar-battery-tester"
-				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R417")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -20589,7 +20906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bc692d6-a566-4f08-8650-76d38625cd1e")
-		(property "Reference" "H401"
+		(property "Reference" "H1"
 			(at 243.84 247.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20647,7 +20964,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "H401")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -20665,7 +20982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f31697b-4110-4657-afe2-cb1067919eff")
-		(property "Reference" "R439"
+		(property "Reference" "R20"
 			(at 269.24 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20751,7 +21068,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R439")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -20769,7 +21086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fd81e0f-d59e-4cf6-9f3b-482b8f937860")
-		(property "Reference" "#PWR0417"
+		(property "Reference" "#PWR017"
 			(at 104.14 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -20830,7 +21147,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0417")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -20848,7 +21165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "932f6b83-62f6-42b8-8168-d26bc56a4efd")
-		(property "Reference" "C416"
+		(property "Reference" "C14"
 			(at 184.15 190.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20870,7 +21187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 181.61 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -20903,6 +21220,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 181.61 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "48b353c4-3004-457f-a888-650ce77a5370")
 		)
@@ -20912,7 +21240,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C416")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -20920,7 +21248,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 185.42 0)
+		(at 147.32 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20928,10 +21256,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93507360-5d03-4ee9-8609-e6f1cdfa1151")
-		(property "Reference" "R416"
-			(at 127 184.1499 0)
+		(property "Reference" "R12"
+			(at 143.764 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20942,7 +21269,7 @@
 			)
 		)
 		(property "Value" "470Ω"
-			(at 127 186.6899 0)
+			(at 155.448 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20953,7 +21280,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 122.682 185.42 90)
+			(at 147.32 155.448 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20964,7 +21291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 185.42 0)
+			(at 147.32 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20975,7 +21302,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 185.42 0)
+			(at 147.32 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20986,7 +21313,7 @@
 			)
 		)
 		(property "DigiKey" "MFR-25FBF52-470R-ND"
-			(at 124.46 185.42 0)
+			(at 147.32 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20997,7 +21324,7 @@
 			)
 		)
 		(property "LCSC Part" "C23179"
-			(at 124.46 185.42 0)
+			(at 147.32 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21016,7 +21343,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R416")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -21034,7 +21361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93cfe892-4ea2-4bd3-a334-c7ee508090cb")
-		(property "Reference" "#PWR0409"
+		(property "Reference" "#PWR011"
 			(at 86.36 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -21094,7 +21421,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0409")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -21112,7 +21439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95237dff-b121-4ce1-bb5f-ab4db9a7ef28")
-		(property "Reference" "C404"
+		(property "Reference" "C3"
 			(at 60.96 246.3862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21204,7 +21531,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C404")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -21228,7 +21555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a811e6-4c96-46b0-8ffd-9873531d66c5")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR04"
 			(at 36.83 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -21288,7 +21615,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0406")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -21305,7 +21632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97e088d0-04e1-4a0f-857f-3c9a24d92bad")
-		(property "Reference" "R411"
+		(property "Reference" "R9"
 			(at 107.442 249.682 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21378,117 +21705,13 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R411")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 			(project "tc2-plugs-buck-boost-pcb"
 				(path "/f421ea14-42dc-4485-8e12-78680a358584"
 					(reference "R218")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 93.98 199.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d661a0c-c071-4f9d-87a7-f7ae08830ba9")
-		(property "Reference" "D402"
-			(at 97.79 199.7074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_R"
-			(at 97.79 202.2474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_FlatTop"
-			(at 93.98 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 93.98 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "732-5016-ND"
-			(at 93.98 199.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "feda3b3d-8fca-480f-aed7-5a40af99b14c")
-		)
-		(pin "1"
-			(uuid "dadfb163-8877-45ee-a3e1-cf879eaaf205")
-		)
-		(instances
-			(project "solar-battery-tester"
-				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "D402")
 					(unit 1)
 				)
 			)
@@ -21506,7 +21729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fa8d014-92b0-4fe5-8dcb-4e7021a26ee3")
-		(property "Reference" "R434"
+		(property "Reference" "R22"
 			(at 360.68 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21612,7 +21835,86 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R434")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5267bde-127f-4dad-8f33-bb07552fb4d6")
+		(property "Reference" "#PWR05"
+			(at 50.8 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38a26284-c659-4c2a-84d9-87b745ae8787")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -21630,7 +21932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a69ef41c-0568-4a16-b9e1-6bb9f92ae409")
-		(property "Reference" "J402"
+		(property "Reference" "J1"
 			(at 76.2 158.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21727,7 +22029,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "J402")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -21744,7 +22046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a77e5729-0eb3-4508-9f96-68174182c8b6")
-		(property "Reference" "Q411"
+		(property "Reference" "Q3"
 			(at 250.952 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21855,7 +22157,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "Q411")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -21872,7 +22174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7b8c1ef-dadb-4889-b03d-3b0255cfd8d7")
-		(property "Reference" "Q410"
+		(property "Reference" "Q6"
 			(at 380.492 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21983,7 +22285,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "Q410")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -22001,7 +22303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aad24f32-13b2-41bc-944a-93e963ffc994")
-		(property "Reference" "#PWR0431"
+		(property "Reference" "#PWR032"
 			(at 189.23 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -22061,7 +22363,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0431")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -22078,7 +22380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abb225a5-4b81-4e4a-a0a2-4d8fc5a79761")
-		(property "Reference" "C408"
+		(property "Reference" "C7"
 			(at 130.81 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22170,7 +22472,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C408")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -22194,7 +22496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abfe45a1-60ad-4646-811c-624ffd077ba8")
-		(property "Reference" "R406"
+		(property "Reference" "R4"
 			(at 95.25 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22302,15 +22604,15 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R406")
+					(reference "R4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 205.74 0)
+		(lib_id "Device:R")
+		(at 147.32 163.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22318,32 +22620,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b337fa44-512d-405e-ae9b-bfa767e82970")
-		(property "Reference" "#PWR0428"
-			(at 109.22 212.09 0)
-			(hide yes)
+		(uuid "b0bb3eac-b069-4538-b3b0-78bf863d6ed6")
+		(property "Reference" "R14"
+			(at 143.764 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 109.22 210.82 0)
-			(hide yes)
+		(property "Value" "470Ω"
+			(at 155.448 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 109.22 205.74 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 147.32 165.608 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22354,7 +22655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 205.74 0)
+			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22364,8 +22665,30 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 205.74 0)
+		(property "Description" "Resistor"
+			(at 147.32 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "MFR-25FBF52-470R-ND"
+			(at 147.32 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23179"
+			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22376,12 +22699,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e9bbfda-a5d3-4a99-824d-b57acd6b0709")
+			(uuid "b4ef4b9b-1cbe-45b6-b1e9-6bb8e4d6d43b")
+		)
+		(pin "2"
+			(uuid "c1cdda2f-d5b2-486a-90a0-dab71328b3dc")
 		)
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0428")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -22399,7 +22725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5c8f596-4a40-466e-be52-7b9efaaef7c0")
-		(property "Reference" "R436"
+		(property "Reference" "R18"
 			(at 236.22 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22505,7 +22831,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R436")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -22523,7 +22849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f43dae-62e5-4e46-adc0-938c187a3870")
-		(property "Reference" "#PWR0420"
+		(property "Reference" "#PWR018"
 			(at 111.76 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -22590,7 +22916,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0420")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -22614,7 +22940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b71c8cd9-91af-4966-980f-0c4a33b1246e")
-		(property "Reference" "#PWR0444"
+		(property "Reference" "#PWR046"
 			(at 344.17 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -22674,7 +23000,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0444")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -22692,7 +23018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b82ad398-f142-443c-8855-31a38ffc429e")
-		(property "Reference" "#PWR0455"
+		(property "Reference" "#PWR038"
 			(at 242.57 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -22752,7 +23078,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0455")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -22760,7 +23086,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 59.69 31.75 0)
+		(at 62.23 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22770,8 +23096,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd0b5f23-cfe0-414a-9812-a97a39f7550a")
-		(property "Reference" "#PWR0405"
-			(at 59.69 35.56 0)
+		(property "Reference" "#PWR07"
+			(at 62.23 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22782,7 +23108,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 59.69 26.67 0)
+			(at 62.23 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22792,7 +23118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 31.75 0)
+			(at 62.23 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22803,7 +23129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 31.75 0)
+			(at 62.23 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22814,7 +23140,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 59.69 31.75 0)
+			(at 62.23 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22830,7 +23156,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0405")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -22849,7 +23175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd66babf-476e-47ca-baac-5867bdad347e")
-		(property "Reference" "#PWR0419"
+		(property "Reference" "#PWR023"
 			(at 132.08 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -22910,7 +23236,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0419")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -22928,7 +23254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bed02947-b21c-4bd6-addd-a93981f750d0")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR01"
 			(at 25.4 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -22988,7 +23314,128 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0401")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cacophony-library:LTST-S310F2KT")
+		(at 132.08 158.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf4bad27-128b-4f86-a0f6-50489ac4315f")
+		(property "Reference" "LED1"
+			(at 132.4599 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-S310F2KT"
+			(at 134.9999 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cacophony-library:LED-SMD_4P-L3.2-W1.5_LTST-S310F2KT"
+			(at 132.08 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-S310F2KT_C284950.html"
+			(at 132.08 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "LITEON(光宝)"
+			(at 132.08 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-S310F2KT"
+			(at 132.08 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C284950"
+			(at 132.08 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0aa40c8d-ba4b-4705-9dd0-05433ce4d831")
+		)
+		(pin "3"
+			(uuid "a3c3682b-ae14-4ec5-bfb6-f5cf21003876")
+		)
+		(pin "4"
+			(uuid "b90b86fe-d4cb-4dd0-a7ee-6b1a5dcf586c")
+		)
+		(pin "2"
+			(uuid "32641049-02ad-4a36-ad70-2173220e08b3")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -23006,7 +23453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0b3a341-3730-4c10-8aa1-48febd6053e3")
-		(property "Reference" "#PWR0457"
+		(property "Reference" "#PWR042"
 			(at 257.81 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -23066,111 +23513,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0457")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 109.22 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c136239e-3aa1-425f-8c8b-c9e774a6322c")
-		(property "Reference" "R415"
-			(at 111.76 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470Ω"
-			(at 111.76 186.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 107.442 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 109.22 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "MFR-25FBF52-470R-ND"
-			(at 109.22 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C23179"
-			(at 109.22 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8563dc2a-0426-4bb1-a721-ebfc12dfc680")
-		)
-		(pin "2"
-			(uuid "99864b2b-6f77-4334-9f03-20fc080c50f0")
-		)
-		(instances
-			(project "solar-battery-tester"
-				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R415")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -23188,7 +23531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c154df4f-1ef5-462b-af4a-bff4cb87c0a6")
-		(property "Reference" "U404"
+		(property "Reference" "U4"
 			(at 151.638 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23312,7 +23655,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "U404")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -23330,7 +23673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6517e01-ec53-4c65-9e82-e02b9206368a")
-		(property "Reference" "R421"
+		(property "Reference" "R21"
 			(at 313.69 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23438,7 +23781,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R421")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -23456,7 +23799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c79db9be-c5de-48ac-8bcf-45546d025027")
-		(property "Reference" "#PWR0460"
+		(property "Reference" "#PWR031"
 			(at 181.61 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -23517,7 +23860,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0460")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -23535,7 +23878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7c918d3-ea27-47a9-98c2-b824bc1a68b7")
-		(property "Reference" "C414"
+		(property "Reference" "C16"
 			(at 248.92 41.9162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23643,7 +23986,85 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C414")
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cacophony-library:+3V3_Lin")
+		(at 124.46 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8801da3-07c9-45d4-8f5c-f56aa2f59228")
+		(property "Reference" "#PWR020"
+			(at 124.46 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_Lin"
+			(at 124.46 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 124.46 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60ac0f72-f9ad-4a52-bbe1-7e22ce442a79")
+		)
+		(instances
+			(project "solar-battery-tester"
+				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -23661,7 +24082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0e23e0d-4e73-41f0-98f4-533370d3ca99")
-		(property "Reference" "#PWR0442"
+		(property "Reference" "#PWR044"
 			(at 294.64 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -23722,7 +24143,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0442")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -23740,7 +24161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1a7a45b-3859-4143-a845-f31f019ab2bc")
-		(property "Reference" "L401"
+		(property "Reference" "L1"
 			(at 83.82 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23836,7 +24257,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "L401")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -23872,7 +24293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d350bc2c-7b76-47ef-b120-0e5fcba1d33e")
-		(property "Reference" "H403"
+		(property "Reference" "H3"
 			(at 243.84 257.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23930,7 +24351,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "H403")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -23948,7 +24369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4c0a9b6-eb21-491f-bfe3-63d338543dbd")
-		(property "Reference" "#PWR0454"
+		(property "Reference" "#PWR039"
 			(at 242.57 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -24009,7 +24430,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0454")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -24027,7 +24448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d50a0f0e-dc91-4c29-8f10-e7b03f9172a7")
-		(property "Reference" "#PWR0427"
+		(property "Reference" "#PWR025"
 			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -24088,7 +24509,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0427")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -24105,7 +24526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6c65dda-5d11-4a9f-827d-a74c2610edd6")
-		(property "Reference" "#PWR0437"
+		(property "Reference" "#PWR048"
 			(at 374.65 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -24166,7 +24587,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0437")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -24183,7 +24604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d78bc2d1-e12b-40b1-8012-21a258c1f83e")
-		(property "Reference" "R414"
+		(property "Reference" "R10"
 			(at 125.73 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24281,7 +24702,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "R414")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -24306,7 +24727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddeef7b3-35b9-48ed-9c5f-e7df63f6d8f2")
-		(property "Reference" "C407"
+		(property "Reference" "C8"
 			(at 129.54 53.3462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24414,7 +24835,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C407")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -24432,7 +24853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e18e6953-53a4-44db-84a8-94bbd83a88e2")
-		(property "Reference" "#PWR0421"
+		(property "Reference" "#PWR019"
 			(at 118.11 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -24493,7 +24914,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0421")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -24511,7 +24932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e29d20b7-c2a6-4a3f-9d4d-9e4ec20177ab")
-		(property "Reference" "M401"
+		(property "Reference" "M1"
 			(at 388.62 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24533,7 +24954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1_1x02_P2.50mm_Vertical"
 			(at 383.54 108.966 0)
 			(hide yes)
 			(show_name no)
@@ -24566,6 +24987,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C263753"
+			(at 383.54 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "07eea673-d185-4ca5-a308-0120493e61cb")
 		)
@@ -24575,7 +25007,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "M401")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -24593,7 +25025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e61fa219-0f45-43f4-95ac-d005b350193d")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR03"
 			(at 30.48 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -24660,7 +25092,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0403")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -24674,7 +25106,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 38.1 0)
+		(at 30.48 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24684,8 +25116,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e799f397-a8fa-4128-af02-63f3df424c85")
-		(property "Reference" "#PWR0402"
-			(at 27.94 44.45 0)
+		(property "Reference" "#PWR02"
+			(at 30.48 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24696,7 +25128,8 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 43.18 0)
+			(at 30.48 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24706,7 +25139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 38.1 0)
+			(at 30.48 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24717,7 +25150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 38.1 0)
+			(at 30.48 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24728,7 +25161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 38.1 0)
+			(at 30.48 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24744,7 +25177,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0402")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -24762,7 +25195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8301f2d-45bc-45a1-ac1d-5bbd56ef7988")
-		(property "Reference" "#PWR0443"
+		(property "Reference" "#PWR045"
 			(at 322.58 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24822,7 +25255,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0443")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -24840,7 +25273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e95c2253-fad7-4691-89e5-5392ec91ded9")
-		(property "Reference" "#PWR0459"
+		(property "Reference" "#PWR028"
 			(at 163.83 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -24901,7 +25334,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0459")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -24919,7 +25352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec105f07-562d-4d76-8dac-1dbe40d27df1")
-		(property "Reference" "D405"
+		(property "Reference" "D3"
 			(at 175.26 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25016,7 +25449,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "D405")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -25034,7 +25467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f034b7c8-d671-43a5-9509-469d8cd147d8")
-		(property "Reference" "#PWR0418"
+		(property "Reference" "#PWR022"
 			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -25094,7 +25527,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0418")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -25112,7 +25545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f04e3ab6-d62f-4c32-bc4d-d216b49456e3")
-		(property "Reference" "#PWR0440"
+		(property "Reference" "#PWR040"
 			(at 246.38 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25172,7 +25605,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0440")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -25190,7 +25623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f432751c-f4cc-4744-b36b-5b51713fc533")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR06"
 			(at 58.42 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -25257,7 +25690,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0408")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -25281,7 +25714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f75deaf1-8753-4853-833c-d9c4abe01694")
-		(property "Reference" "#PWR0435"
+		(property "Reference" "#PWR035"
 			(at 222.25 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -25342,7 +25775,7 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0435")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -25360,7 +25793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7fa8f9f-8518-4ffc-bf34-f3447a603410")
-		(property "Reference" "#PWR0413"
+		(property "Reference" "#PWR015"
 			(at 102.87 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -25421,15 +25854,15 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "#PWR0413")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 54.61 39.37 270)
+		(lib_id "Device:D")
+		(at 50.8 40.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25437,10 +25870,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f89c476e-24bd-4a8f-af98-de2ca9c4a719")
-		(property "Reference" "D407"
-			(at 57.15 38.0999 90)
+		(uuid "f8aed51b-3be2-4757-b149-e236a7a4f6bb")
+		(property "Reference" "D1"
+			(at 43.688 39.624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25450,8 +25882,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
-			(at 57.15 40.6399 90)
+		(property "Value" "D"
+			(at 46.482 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25461,8 +25893,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 54.61 39.37 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 50.8 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25473,7 +25905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 39.37 0)
+			(at 50.8 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25483,8 +25915,8 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
-			(at 54.61 39.37 0)
+		(property "Description" "Diode"
+			(at 50.8 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25494,8 +25926,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C19077406"
-			(at 54.61 39.37 0)
+		(property "Sim.Device" "D"
+			(at 50.8 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25505,8 +25937,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 54.61 39.37 90)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25516,8 +25948,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 54.61 39.37 90)
+		(property "LCSC Part" "C95872"
+			(at 50.8 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25526,28 +25958,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Type" ""
-			(at 54.61 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e59cd9f-8bef-4582-afa9-c3f60a80ed57")
 		)
 		(pin "2"
-			(uuid "babb633d-1bf2-4847-83de-5b33f12d1d04")
+			(uuid "88007e3d-5c96-4e40-9a38-80014313bcc7")
+		)
+		(pin "1"
+			(uuid "2f56f70d-8847-4c45-baef-4fa7154bb0c0")
 		)
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "D407")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -25565,7 +25986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc1a78a-5c69-4e42-9273-c65706203b84")
-		(property "Reference" "C402"
+		(property "Reference" "C2"
 			(at 43.18 246.3863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25657,7 +26078,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C402")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -25681,7 +26102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fee91343-47dd-4e80-aa4a-c2670b54074a")
-		(property "Reference" "C413"
+		(property "Reference" "C13"
 			(at 175.26 246.3863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25773,7 +26194,7 @@
 			)
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c"
-					(reference "C413")
+					(reference "C13")
 					(unit 1)
 				)
 			)

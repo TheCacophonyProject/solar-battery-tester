@@ -577,7 +577,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 400,
+    "annotate_start_num": 0,
     "annotation": {
       "method": 0,
       "sort_order": 0
@@ -762,7 +762,7 @@
         "uuid": "31e694ee-be1b-4b65-934d-7c826c4bd02c"
       }
     ],
-    "used_designators": "M401,#PWR433,#PWR454-460,R417-418,R436-438,U406,F401,Q411-413,C415-416,D405-407,J405,J410",
+    "used_designators": "#FLG1-3,J1-8,J405,J410,C1-16,C415-416,Q1-12,Q411-413,F1,F401,D1-4,D405-408,U1-6,U406,H1-4,LED1,LED401,#PWR1-60,#PWR404,#PWR422,#PWR433,#PWR454-460,FB1,L1,M1,M401,R1-36,R417-418,R436-438,R440,DC1,DC401",
     "variants": []
   },
   "sheets": [

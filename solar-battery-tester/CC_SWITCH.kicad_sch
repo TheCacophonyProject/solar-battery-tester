@@ -698,7 +698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14bfb7f6-4717-4d3f-8e85-8f3dce917336")
-		(property "Reference" "#PWR0446"
+		(property "Reference" "#PWR052"
 			(at 121.92 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -758,27 +758,27 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/2b3bc9df-be9d-4be6-be8c-06faa7fa7ccf"
-					(reference "#PWR0447")
+					(reference "#PWR053")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/517a5ee3-30cf-4d8e-926a-65dedb85ce1d"
-					(reference "#PWR0448")
+					(reference "#PWR054")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/5ac198e6-de12-4ad0-a59d-32655ca72e34"
-					(reference "#PWR0451")
+					(reference "#PWR057")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/bceb424a-0e47-445d-8094-cecba2bf081f"
-					(reference "#PWR0446")
+					(reference "#PWR052")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/f254e803-175b-4dc8-92e8-3385fc563738"
-					(reference "#PWR0450")
+					(reference "#PWR056")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/fdf3b996-20b3-402f-8d68-d3aabb0e9006"
-					(reference "#PWR0449")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -796,7 +796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e8c5a5-62ba-471b-9ec3-d497e0f4fa87")
-		(property "Reference" "R422"
+		(property "Reference" "R25"
 			(at 104.14 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -902,27 +902,27 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/2b3bc9df-be9d-4be6-be8c-06faa7fa7ccf"
-					(reference "R424")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/517a5ee3-30cf-4d8e-926a-65dedb85ce1d"
-					(reference "R426")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/5ac198e6-de12-4ad0-a59d-32655ca72e34"
-					(reference "R432")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/bceb424a-0e47-445d-8094-cecba2bf081f"
-					(reference "R422")
+					(reference "R25")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/f254e803-175b-4dc8-92e8-3385fc563738"
-					(reference "R430")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/fdf3b996-20b3-402f-8d68-d3aabb0e9006"
-					(reference "R428")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -939,7 +939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1866306-1652-49f0-a4b3-1c337083022e")
-		(property "Reference" "Q404"
+		(property "Reference" "Q7"
 			(at 123.952 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1050,27 +1050,27 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/2b3bc9df-be9d-4be6-be8c-06faa7fa7ccf"
-					(reference "Q405")
+					(reference "Q8")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/517a5ee3-30cf-4d8e-926a-65dedb85ce1d"
-					(reference "Q406")
+					(reference "Q9")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/5ac198e6-de12-4ad0-a59d-32655ca72e34"
-					(reference "Q409")
+					(reference "Q12")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/bceb424a-0e47-445d-8094-cecba2bf081f"
-					(reference "Q404")
+					(reference "Q7")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/f254e803-175b-4dc8-92e8-3385fc563738"
-					(reference "Q408")
+					(reference "Q11")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/fdf3b996-20b3-402f-8d68-d3aabb0e9006"
-					(reference "Q407")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -1087,7 +1087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9395db3-cacc-41c5-8c37-3ab81e10852a")
-		(property "Reference" "R423"
+		(property "Reference" "R26"
 			(at 108.458 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1195,27 +1195,27 @@
 		(instances
 			(project "solar-battery-tester"
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/2b3bc9df-be9d-4be6-be8c-06faa7fa7ccf"
-					(reference "R425")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/517a5ee3-30cf-4d8e-926a-65dedb85ce1d"
-					(reference "R427")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/5ac198e6-de12-4ad0-a59d-32655ca72e34"
-					(reference "R433")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/bceb424a-0e47-445d-8094-cecba2bf081f"
-					(reference "R423")
+					(reference "R26")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/f254e803-175b-4dc8-92e8-3385fc563738"
-					(reference "R431")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/31e694ee-be1b-4b65-934d-7c826c4bd02c/fdf3b996-20b3-402f-8d68-d3aabb0e9006"
-					(reference "R429")
+					(reference "R32")
 					(unit 1)
 				)
 			)
