@@ -107,7 +107,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -762,7 +762,7 @@
         "uuid": "31e694ee-be1b-4b65-934d-7c826c4bd02c"
       }
     ],
-    "used_designators": "L1,FB1,#PWR1-63,#PWR404,#PWR422,#PWR433,#PWR454-460,DC1,DC401,R1-38,R417-418,R436-438,R440,M1,M401,TH1701,#FLG1-4,J1-8,J405,J410,C1-16,C415-416,Q1-12,Q411-413,F1,F401,D1-4,D405-408,U1-7,U406,LED1,LED401,H1-4",
+    "used_designators": "#PWR1-63,#PWR404,#PWR422,#PWR433,#PWR454-460,FB1,L1,DC1,DC401,M1,M401,R1-38,R417-418,R436-438,R440,J1-8,J405,J410,#FLG1-4,TH1701,F1,F401,Q1-12,Q411-413,U1-7,U406,D1-4,D405-408,C1-16,C415-416,LED1,LED401,H1-4",
     "variants": []
   },
   "sheets": [

@@ -846,6 +846,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 83.82 83.82)
@@ -860,16 +975,16 @@
 		(uuid "382497b4-7576-4ba7-a22c-784945553ec3")
 	)
 	(junction
-		(at 140.97 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44e1a8e3-6f03-44f0-87e6-6c67a6f1867a")
-	)
-	(junction
 		(at 161.29 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5025c9d9-0c45-4109-9bc7-c57a9edb89c6")
+	)
+	(junction
+		(at 140.97 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55cc6ca9-6744-4473-8897-cda4160bf730")
 	)
 	(junction
 		(at 200.66 106.68)
@@ -906,6 +1021,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb84cdf4-815d-41ca-8f99-f53ddac33e14")
+	)
+	(junction
+		(at 140.97 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cae94ebd-5ca0-4ac6-ac2b-e094caa0cc76")
 	)
 	(junction
 		(at 82.55 106.68)
@@ -1001,6 +1122,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 139.7) (xy 140.97 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146e6093-ca3f-44c6-9111-bd515d903b5f")
+	)
+	(wire
+		(pts
 			(xy 118.11 106.68) (xy 121.92 106.68)
 		)
 		(stroke
@@ -1038,6 +1169,16 @@
 			(type default)
 		)
 		(uuid "2178d670-70dd-4559-a14e-53b67c379a8b")
+	)
+	(wire
+		(pts
+			(xy 134.62 137.16) (xy 134.62 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21fb57c7-2fd0-4176-9d0d-917bf93d80fc")
 	)
 	(wire
 		(pts
@@ -1148,6 +1289,16 @@
 			(type default)
 		)
 		(uuid "4b9271f5-2737-4bd5-8132-19f9e67260c1")
+	)
+	(wire
+		(pts
+			(xy 134.62 139.7) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5a1033-0b57-4d92-88d3-9fee821adaba")
 	)
 	(wire
 		(pts
@@ -1541,7 +1692,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 148.59) (xy 140.97 160.02)
+			(xy 140.97 137.16) (xy 140.97 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2401,7 +2552,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 140.97 148.59 0)
+		(at 140.97 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2412,7 +2563,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c71c6e1-cabf-4e05-900f-90c62238f89c")
 		(property "Reference" "#PWR02"
-			(at 140.97 152.4 0)
+			(at 140.97 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2423,7 +2574,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 140.97 143.51 0)
+			(at 140.97 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2433,7 +2584,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 148.59 0)
+			(at 140.97 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2444,7 +2595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 148.59 0)
+			(at 140.97 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2455,7 +2606,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 140.97 148.59 0)
+			(at 140.97 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2628,6 +2779,84 @@
 			(project "solar-battery-load"
 				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 134.62 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfda4703-d215-46a6-824b-af4771edf928")
+		(property "Reference" "#FLG013"
+			(at 134.62 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 134.62 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 134.62 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa115d61-8ae9-4dc3-98df-f5c221460b92")
+		)
+		(instances
+			(project "solar-battery-load"
+				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)
