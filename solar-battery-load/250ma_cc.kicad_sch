@@ -420,7 +420,7 @@
 	)
 	(text_box "Target current for each row: 250mA\nI = 1.25/R\nI = 1.25/5\nI = 250mA\nMin voltage drop over regulator for stable regulation: 2V\n\nTotal voltage drop over resistors at 9V (empty battery) 7V\nMax Total resistor resistance = 7/0.25 = 28Ω\n28 = 5 x 5Ω + 1 x 3Ω\n\nEach 5Ω resistor will dissipate 0.25A^2*5Ω = 0.3125W. This can be done with two 10Ω in parallel giving 5Ω and 0.5W\nThe 3Ω resistor will dissipate 0.1875W so that can be done with one 1206 resistor\n\nMax power output from linear regulator will be when regulating at the batteries highest voltage (12.6V)\n(12.6-(28*0.25))*0.25 = 1.4W\n"
 		(exclude_from_sim no)
-		(at 29.21 57.15 0)
+		(at 12.7 21.59 0)
 		(size 73.66 39.37)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2683,6 +2683,38 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(group "250ma_cc"
+		(uuid "b0e4e481-0fc9-442a-86f7-a75b1a4b0580")
+		(lib_id "cc-load:250ma_cc")
+		(members "0407c811-7b7d-4511-b537-57b22a8bb059" "041207ae-68ce-4a81-bb6d-05262359828c"
+			"0a5b434d-6b7e-46a4-bc25-87974ac65435" "1d163ac9-f14e-4232-ad08-3827f804e6f7"
+			"1d39b092-2f48-4332-bc21-62d9ca95fa21" "1e84d94d-dfbe-4da5-9630-d1c6654d259e"
+			"2973b6ec-a18a-4456-a089-fb91cfadda02" "2b0dc51e-6a34-43c4-8d12-056f7d20ca31"
+			"2cbd1612-b72a-4063-a492-eb17e40fa73e" "3183be23-cbb6-4253-8349-31538e4dd80a"
+			"3c11972a-75fc-488e-8a57-234d21d06ec9" "3fd38b2f-2be8-4fca-8703-036a41912730"
+			"432de332-5958-4269-994a-a2c513c91f0d" "43474ea0-0b7d-438d-a58e-c643c071f310"
+			"46f6cfa5-cb36-4663-aabe-ba8b530f508e" "4fcc458a-9bee-4d30-86a4-5df6d9312f5f"
+			"5a94a60c-ae77-4d9b-b9fc-b162ae9b246d" "5aa27e3e-a055-498e-a7cc-62196939ea59"
+			"5b03cd2d-62c3-4712-afee-6886ceb8eb5b" "5cc1c33b-6e00-479b-bd1a-5632e5063c7f"
+			"5d292875-8fc9-40f6-ab16-b4de089252dc" "6bdbb43e-5017-4642-9fdb-57a4ced21fa9"
+			"79e715cf-d17f-4826-9543-bbe5e9aa3275" "817a962b-929b-4627-981c-8706962a11c5"
+			"81f66e67-5ecb-4933-9f38-fb27a4dfb98d" "8f423ab8-ebcb-4991-bc7c-a245e58649e0"
+			"974a1137-d57c-4828-9767-36cf34201a3d" "9bbfa3fe-80ab-4783-8e68-018f5d0e6cf0"
+			"a5444a33-f656-4c74-bb24-c9dcfb820088" "adbef7ee-6ddf-4f89-87bc-7eac57893607"
+			"ae9283e3-bb80-45c3-a83a-5f1a4e95d3ea" "af3f8515-9435-41aa-8881-0e8162d4483e"
+			"afec3ee1-1357-481c-97d3-bb5082744718" "aff81075-57df-41d3-9f53-70574b5c4f2c"
+			"b5267523-4480-48cd-98d2-36fe16c9ab4f" "b7906143-4810-4410-b6d2-0886c87ee230"
+			"c0f0d106-0a95-42b7-ab37-8a58c3cfcd93" "c168f737-3e4c-45fa-8798-b024cd8182e9"
+			"d0c10823-3061-488f-a9e7-a08a3a15f024" "d5d34421-4992-4db2-a39a-56d15beaf72f"
+			"daa8da63-75b0-4a00-9250-700087f00c4b" "dd850881-fb07-4d8a-8e22-96f9137e46c5"
+			"dee41f38-070f-43c1-a82e-27ea1d7de7e0" "df8c917e-f702-4d67-9b9c-b9e8703b238a"
+			"e12b8006-79d5-4b94-9cac-896e855e0dd1" "e67c8ae3-30ae-4ace-bc28-a5b65773668f"
+			"e68fc1c3-a150-4481-b4ec-56c31a836d82" "e7d5182e-1b4a-41c4-8231-7b923aa99ba8"
+			"e9bed31c-1dcb-4cad-8890-8a4d288a52f4" "e9cda337-db41-47f3-9c22-52fa29ca3d22"
+			"ea3da373-097f-4c80-8cd2-e60945439149" "f1b0d2b9-66cd-461a-a2fe-ab8683cead6c"
+			"f6e991e7-f2bc-444f-9400-e0a4ab78af6d" "f7a535ad-2252-4d26-8192-a8c94d3d434f"
 		)
 	)
 )
