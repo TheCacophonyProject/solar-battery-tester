@@ -17770,7 +17770,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "MFR-25FBF52-470R-ND"
+		(property "Digikey" "MFR-25FBF52-470R-ND"
 			(at 147.32 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -23351,7 +23351,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "MFR-25FBF52-470R-ND"
+		(property "Digikey" "MFR-25FBF52-470R-ND"
 			(at 266.7 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -23626,7 +23626,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "MFR-25FBF52-470R-ND"
+		(property "Digikey" "MFR-25FBF52-470R-ND"
 			(at 147.32 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -24143,6 +24143,17 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 50.8 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
 			(at 50.8 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -25240,7 +25251,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "MFR-25FBF52-470R-ND"
+		(property "Digikey" "MFR-25FBF52-470R-ND"
 			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)

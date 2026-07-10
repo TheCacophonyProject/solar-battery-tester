@@ -2116,7 +2116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cce909b-f0a3-4d06-816d-aeb3893d5628")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0105"
 			(at 162.56 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2176,7 +2176,7 @@
 		(instances
 			(project "solar-battery-load"
 				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
-					(reference "#PWR06")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2194,7 +2194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fc395dd-d6e1-4c31-9a5c-cf93dfdec833")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0106"
 			(at 201.93 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2254,7 +2254,7 @@
 		(instances
 			(project "solar-battery-load"
 				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
-					(reference "#PWR07")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -2272,7 +2272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a1a14e8-425d-4edd-9276-73109452a658")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0102"
 			(at 83.82 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2332,7 +2332,7 @@
 		(instances
 			(project "solar-battery-load"
 				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
-					(reference "#PWR04")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -2350,7 +2350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bab1dab-c40d-4f26-a1c6-691c4898f7df")
-		(property "Reference" "J10"
+		(property "Reference" "J101"
 			(at 151.13 162.9155 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2452,7 +2452,7 @@
 		(instances
 			(project "solar-battery-load"
 				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
-					(reference "J10")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -2469,7 +2469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6320e1a4-546b-43a2-a71c-4b4329bbe728")
-		(property "Reference" "TH1701"
+		(property "Reference" "TH101"
 			(at 76.2 157.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2544,7 +2544,7 @@
 		(instances
 			(project "solar-battery-load"
 				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
-					(reference "TH1701")
+					(reference "TH101")
 					(unit 1)
 				)
 			)
@@ -2562,7 +2562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c71c6e1-cabf-4e05-900f-90c62238f89c")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0104"
 			(at 140.97 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -2622,7 +2622,7 @@
 		(instances
 			(project "solar-battery-load"
 				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
-					(reference "#PWR02")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2640,7 +2640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5743f7a-2d33-4b4c-b4a2-8de3062b0e0b")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0103"
 			(at 123.19 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2700,7 +2700,7 @@
 		(instances
 			(project "solar-battery-load"
 				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
-					(reference "#PWR05")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -2718,7 +2718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3049c44-38a7-484c-b88c-71429049d5ea")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0107"
 			(at 242.57 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2778,7 +2778,7 @@
 		(instances
 			(project "solar-battery-load"
 				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
-					(reference "#PWR08")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -2796,7 +2796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfda4703-d215-46a6-824b-af4771edf928")
-		(property "Reference" "#FLG013"
+		(property "Reference" "#FLG0101"
 			(at 134.62 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -2856,7 +2856,7 @@
 		(instances
 			(project "solar-battery-load"
 				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
-					(reference "#FLG013")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -2874,7 +2874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2476053-8b8d-4f8d-8f5d-0b94f1d959eb")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0101"
 			(at 43.18 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2934,42 +2934,10 @@
 		(instances
 			(project "solar-battery-load"
 				(path "/41767b7e-06fc-44e0-983a-87adf49b5eb5"
-					(reference "#PWR03")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group "250ma_cc"
-		(uuid "35cc569c-ac25-4b53-bc0c-a0dbe89942dc")
-		(lib_id "cc-load:250ma_cc")
-		(members "05a54bae-4e82-471e-80bd-5f0726e1923c" "05ecc4a2-58e7-4033-956a-94ed896068ca"
-			"0af7646c-191b-461e-81bd-82e5237f8bf0" "0b00fd23-8193-413b-9d9e-f162b6f50364"
-			"174363a6-2c08-4dc9-8b49-1f5e53eb9904" "1743eb02-8e96-44a0-8f4c-33f80e922425"
-			"21c621ca-8442-4f70-9438-c31e4e6782ef" "2985ea4b-c5f4-40f5-a3d8-829e7e34ce3e"
-			"2f5452dc-0d52-4280-ba71-5665439a2cac" "4350ecb6-5a63-443d-b893-2401b37f8a91"
-			"450cd0c3-3db9-453c-8e16-07b09b9ff531" "4a510668-1174-4a51-99d8-629c76096b81"
-			"4a77353e-8190-4687-9be2-3281c345735e" "4ef71c1c-ed72-4f31-afd5-cb59a3d0f24f"
-			"554923eb-c5fa-488e-a3ec-427ad118920a" "55f4778f-1305-458d-ab8c-f87b70f614fc"
-			"61f48f89-59c0-447d-893e-4717f750fb0a" "62effd0c-2825-4b8a-949a-13a084bcb969"
-			"650cb443-c513-45fb-9875-895dd033fec8" "766c7c4f-53cb-4766-9300-f6b4b19ca0d7"
-			"76d1d07c-47bf-4759-9b59-607782bcc664" "801e79bb-3584-4576-b23a-519c30e86cc0"
-			"8db09304-91b6-4b5e-96c8-87bda5f757ab" "9640a96f-2e09-479d-b6f2-b2156da452fc"
-			"97b8f351-530b-47d8-8f6e-5e814cfaeed5" "98cdd6db-0bd9-4051-b1ae-74eecdb70439"
-			"9a62819f-dbb3-4b18-9758-a821dab563b4" "9dba3ed9-f4a2-4f39-bdd3-aad3980d04f8"
-			"a04f766a-47d3-4362-9f9a-ec0f31ac21c5" "a1dc2ce9-2097-4721-bb37-32ed3cbc094f"
-			"a730b806-17f5-4085-9bf0-cdb434289cee" "a7ac3e0c-b3f1-4ddb-971a-455732521b0e"
-			"a8208376-996c-4382-b8ac-1471f7ba4d67" "a998c175-e857-47df-bcf8-3b9993d9a091"
-			"ad5133ff-a0b1-45d7-a77f-7be0920e1701" "ad52ed8a-f1c9-4363-b27d-7a706ca11ec1"
-			"b10f06bd-cb4e-4536-aa0b-9b8f6353ab77" "b73141b2-e05b-45dd-88a1-fc872501e91d"
-			"b776ce42-6431-4bc3-9833-660a03877d17" "bc7e9532-0b7a-43e6-877b-b3d9de53955c"
-			"c179ac00-f997-49ee-a7d4-6b517f7e7108" "c50e80bc-210d-4ce0-a3a5-3dea45d0449a"
-			"c58e8ff1-957f-4901-bca9-8177ea47fd7b" "c7ae490a-44fe-4e31-9942-8f395f59f039"
-			"d3fd8a43-e0ed-4295-a885-b82833bcd329" "d5bc258f-eb86-4f51-a4b4-c77e2a208323"
-			"daa4465a-80e8-4025-83c3-d64b719bc863" "de6ed9cc-a7a1-408b-9d10-ae7f7197a3ab"
-			"e374e2c7-7ee2-4874-83db-7728de5c360f" "e678a5b5-2dfa-44ca-8224-2c6a8eff1558"
-			"f2f08e46-b4a3-4af1-bf7d-c1474a0f184e" "f929ce76-63e2-4077-8aa1-2d6a84a474c1"
-			"fb624c76-e97b-4b9a-bc63-864a2fc8436d" "ff43c2b8-d3b5-44d4-9ba2-63df10b5adab"
 		)
 	)
 	(sheet
