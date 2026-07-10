@@ -706,7 +706,7 @@
           "show": false
         }
       ],
-      "filter_string": "R",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -762,7 +762,7 @@
         "uuid": "31e694ee-be1b-4b65-934d-7c826c4bd02c"
       }
     ],
-    "used_designators": "D1-4,D405-408,U1-7,U406,Q1-12,Q411-413,H1-4,LED1,LED401,C1-16,C415-416,#PWR1-63,#PWR404,#PWR422,#PWR433,#PWR454-460,FB1,L1,R1-38,R417-418,R436-438,R440,M1,M401,DC1,DC401,J1-8,J405,J410,#FLG1-4,TH1701,F1,F401",
+    "used_designators": "D1-4,D405-408,U1-7,U406,Q1-12,Q411-413,H1-4,LED1,LED401,C1-16,C415-416,#PWR1-63,#PWR404,#PWR422,#PWR433,#PWR454-460,FB1,L1,R1-38,R417-418,R436-438,R440,M1,M401,DC1,DC401,J1-8,J405,J410,#FLG1-4,TH1,TH1701,F1,F401",
     "variants": []
   },
   "sheets": [
