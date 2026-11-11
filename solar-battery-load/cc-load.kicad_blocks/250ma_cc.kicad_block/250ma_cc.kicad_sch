@@ -876,17 +876,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C17903"
-			(at -116.84 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part" "C17903"
 			(at -116.84 121.92 0)
 			(hide yes)
@@ -970,17 +959,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at -105.41 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C17903"
 			(at -105.41 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -1084,17 +1062,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C17903"
-			(at -116.84 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part" "C17903"
 			(at -116.84 111.76 0)
 			(hide yes)
@@ -1178,17 +1145,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at -105.41 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C17903"
 			(at -105.41 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1292,17 +1248,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C17903"
-			(at -105.41 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part" "C17903"
 			(at -105.41 132.08 0)
 			(hide yes)
@@ -1386,17 +1331,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at -105.41 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C17903"
 			(at -105.41 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -1594,17 +1528,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C75510"
-			(at -116.84 156.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part" "C75510"
 			(at -116.84 156.21 90)
 			(hide yes)
@@ -1691,17 +1614,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at -116.84 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C17903"
 			(at -116.84 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -1805,17 +1717,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C17903"
-			(at -105.41 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part" "C17903"
 			(at -105.41 121.92 0)
 			(hide yes)
@@ -1909,17 +1810,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C17903"
-			(at -116.84 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part" "C17903"
 			(at -116.84 142.24 0)
 			(hide yes)
@@ -2003,17 +1893,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at -116.84 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C17903"
 			(at -116.84 132.08 0)
 			(hide yes)
 			(show_name no)
